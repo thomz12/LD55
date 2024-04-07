@@ -1,0 +1,170 @@
+{
+    "value0": {
+        "cereal_class_version": 0,
+        "value0": 3,
+        "value1": 3,
+        "value2": 0,
+        "value3": 1,
+        "value4": 2,
+        "value5": 3,
+        "value6": 0,
+        "value7": {
+            "cereal_class_version": 0,
+            "name": "root"
+        },
+        "value8": 1,
+        "value9": {
+            "name": "camera"
+        },
+        "value10": 2,
+        "value11": {
+            "name": "text"
+        },
+        "value12": 3,
+        "value13": 0,
+        "value14": {
+            "cereal_class_version": 0,
+            "children": 1,
+            "first": 1,
+            "parent": 4294967295,
+            "next": 0,
+            "prev": 0
+        },
+        "value15": 1,
+        "value16": {
+            "children": 1,
+            "first": 2,
+            "parent": 0,
+            "next": 1,
+            "prev": 1
+        },
+        "value17": 2,
+        "value18": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1,
+            "next": 2,
+            "prev": 2
+        },
+        "value19": 1,
+        "value20": 1,
+        "value21": {
+            "cereal_class_version": 0,
+            "position": {
+                "cereal_class_version": 0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "cereal_class_version": 0,
+                "x": 1.0,
+                "y": 1.0
+            }
+        },
+        "value22": 0,
+        "value23": 1,
+        "value24": 1,
+        "value25": {
+            "cereal_class_version": 0,
+            "zoom": 1.0,
+            "clear": true,
+            "clearColor": {
+                "cereal_class_version": 0,
+                "r": 0.3921568691730499,
+                "g": 0.5843137502670288,
+                "b": 0.929411768913269,
+                "a": 1.0
+            },
+            "width": 0,
+            "height": 0,
+            "useDepthStencil": true,
+            "nearPlane": 0.0,
+            "farPlane": 100.0
+        },
+        "value26": 0,
+        "value27": 0,
+        "value28": 0,
+        "value29": 0,
+        "value30": 2,
+        "value31": 1,
+        "value32": {
+            "cereal_class_version": 0,
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 709.0,
+                "y": 420.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        "value33": 2,
+        "value34": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        "value35": 1,
+        "value36": 1,
+        "value37": {
+            "cereal_class_version": 0,
+            "scale": 1.0
+        },
+        "value38": 0,
+        "value39": 1,
+        "value40": 2,
+        "value41": {
+            "cereal_class_version": 0,
+            "text": "Ludum Dare 55 :)",
+            "vertical": 1,
+            "horizontal": 1,
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "fontSize": 32.0,
+            "font": {
+                "cereal_class_version": 0,
+                "path": ""
+            },
+            "wrapText": false
+        },
+        "value42": 0,
+        "value43": 0
+    }
+}
