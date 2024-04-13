@@ -7,6 +7,14 @@ function on_contact(this, other)
             -- check if a customer is following the player.
             -- if it is, target the customer to this table.
             if player_customer_env.following ~= nil then
+
+                local tables = find_entities("table")
+                for i, tbl in ipairs(tables) do
+                    if tbl:get_scripts():get_script_env("table.lua").customer == nil then
+                        find_child_by_name(tbl, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
+                    end
+                end
+
                 customer = player_customer_env.following
                 local customer_env = customer:get_scripts():get_script_env("customer.lua")
                 local pos = entity:get_transform().position
