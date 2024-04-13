@@ -66,11 +66,25 @@ end
 
 function wait_food(player)
     if player:get_scripts():get_script_env("player_food.lua").get_order() then
+        local food_entity = player:get_scripts():get_script_env("player_carry.lua").pop_food()
+        local food_startX = food_entity:get_transform().position.x
+        local food_startY = food_entity:get_transform().position.y
+        routine.create(function()
+            routine.wait_seconds_func(1.0, function(x)
+                local food_trans = food_entity:get_transform()
+                local table_trans = table:get_transform()
+                food_trans.position.x = lerp(food_startX, table_trans.position.x, out_expo(x))
+                food_trans.position.y = lerp(food_startY, table_trans.position.y + 2, out_bounce(x))
+                food_trans.rotation = lerp(0, 360, out_back(x))
+            end)
+        end)
+
         interact_func = nil
         bounce()
         routine.create(function()
             routine.wait_seconds(5.0)
-            find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show()
+            destroy_entity(food_entity)
+            find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_payment.png")
             interact_func = wait_payment
         end)
     end
