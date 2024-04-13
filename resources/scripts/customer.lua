@@ -6,6 +6,7 @@ target_dist = nil
 local interact_func = nil
 local table = nil
 local entry_pos = nil
+local delta
 
 -- customer states:
 -- 0: wait to be seated (needs player)
@@ -23,7 +24,34 @@ function start()
     entry_pos = vector2.new(90, 90)
 end
 
+function move_towards(position, duration)
+    local start_pos = vector2.new(entity:get_transform().position.x, entity:get_transform().position.y)
+    routine.create(function()
+        routine.wait_seconds_func(1.0, function(x)
+            -- walking animation
+            local sprite = entity:get_sprite()
+            frame_timer = frame_timer + delta
+            if frame_timer > 0.1 then
+                frame_timer = 0.0
+                sprite.origin.x = (sprite.origin.x + 16) % (16 * 4)
+            end
+
+            local transform = entity:get_transform()
+            print(tostring(start_pos.x) .. " - " .. tostring(transform.position.x) .. " - " .. tostring(position.x))
+            transform.position = vector3.new(
+                lerp(start_pos.x, position.x, x),
+                lerp(start_pos.y, position.y, x),
+                transform.position.z
+            )
+            entity:update_transform()
+        end)
+        local sprite = entity:get_sprite()
+        sprite.origin.x = 0
+    end)
+end
+
 function update(delta_time)
+    delta = delta_time
     local sprite = entity:get_sprite()
     local transform = entity:get_transform()
     if target_pos ~= nil then
@@ -98,7 +126,7 @@ end
 function seat_customer(my_table)
     table = my_table
     routine.create(function()
-        routine.wait_seconds(4.0)
+        routine.wait_seconds(2.0)
         bounce()
         find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_order.png")
         interact_func = function(player)

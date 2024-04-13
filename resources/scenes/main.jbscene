@@ -1,7 +1,7 @@
 {
     "value0": {
         "cereal_class_version": 0,
-        "value0": 25,
+        "value0": 26,
         "value1": 25,
         "value2": 0,
         "value3": 1,
@@ -28,111 +28,112 @@
         "value24": 22,
         "value25": 23,
         "value26": 24,
-        "value27": 25,
-        "value28": 0,
-        "value29": {
+        "value27": 1048601,
+        "value28": 25,
+        "value29": 0,
+        "value30": {
             "cereal_class_version": 0,
             "name": "root"
         },
-        "value30": 1,
-        "value31": {
+        "value31": 1,
+        "value32": {
             "name": "camera"
         },
-        "value32": 1048578,
-        "value33": {
+        "value33": 1048578,
+        "value34": {
             "name": "player"
         },
-        "value34": 3,
-        "value35": {
+        "value35": 3,
+        "value36": {
             "name": "tilemap"
         },
-        "value36": 6,
-        "value37": {
+        "value37": 6,
+        "value38": {
             "name": "panel_fade"
         },
-        "value38": 5,
-        "value39": {
+        "value39": 5,
+        "value40": {
             "name": "background"
         },
-        "value40": 2097156,
-        "value41": {
+        "value41": 2097156,
+        "value42": {
             "name": "table"
         },
-        "value42": 8,
-        "value43": {
+        "value43": 8,
+        "value44": {
             "name": "text_created_by"
         },
-        "value44": 2097159,
-        "value45": {
+        "value45": 2097159,
+        "value46": {
             "name": "customer_spawner"
         },
-        "value46": 10,
-        "value47": {
+        "value47": 10,
+        "value48": {
             "name": "img_entry_attention"
         },
-        "value48": 1048587,
-        "value49": {
+        "value49": 1048587,
+        "value50": {
             "name": "img_table_attention"
         },
-        "value50": 1048589,
-        "value51": {
+        "value51": 1048589,
+        "value52": {
             "name": "kitchen"
         },
-        "value52": 1048590,
-        "value53": {
+        "value53": 1048590,
+        "value54": {
             "name": "table"
         },
-        "value54": 5242889,
-        "value55": {
+        "value55": 5242889,
+        "value56": {
             "name": "img_table_attention"
         },
-        "value56": 1048588,
-        "value57": {
+        "value57": 1048588,
+        "value58": {
             "name": "table"
         },
-        "value58": 15,
-        "value59": {
+        "value59": 15,
+        "value60": {
             "name": "img_table_attention"
         },
-        "value60": 16,
-        "value61": {
+        "value61": 16,
+        "value62": {
             "name": "img_attention_food"
         },
-        "value62": 17,
-        "value63": {
+        "value63": 17,
+        "value64": {
             "name": "table"
         },
-        "value64": 18,
-        "value65": {
+        "value65": 18,
+        "value66": {
             "name": "img_table_attention"
         },
-        "value66": 19,
-        "value67": {
+        "value67": 19,
+        "value68": {
             "name": "table"
         },
-        "value68": 20,
-        "value69": {
+        "value69": 20,
+        "value70": {
             "name": "img_table_attention"
         },
-        "value70": 21,
-        "value71": {
+        "value71": 21,
+        "value72": {
             "name": "table"
         },
-        "value72": 22,
-        "value73": {
+        "value73": 22,
+        "value74": {
             "name": "img_table_attention"
         },
-        "value74": 23,
-        "value75": {
+        "value75": 23,
+        "value76": {
             "name": "table"
         },
-        "value76": 24,
-        "value77": {
+        "value77": 24,
+        "value78": {
             "name": "img_table_attention"
         },
-        "value78": 25,
-        "value79": 0,
-        "value80": {
+        "value79": 25,
+        "value80": 0,
+        "value81": {
             "cereal_class_version": 0,
             "children": 13,
             "first": 1,
@@ -140,201 +141,201 @@
             "next": 0,
             "prev": 0
         },
-        "value81": 1,
-        "value82": {
+        "value82": 1,
+        "value83": {
             "children": 2,
             "first": 8,
             "parent": 0,
             "next": 1048578,
             "prev": 23
         },
-        "value83": 1048578,
-        "value84": {
+        "value84": 1048578,
+        "value85": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 3,
             "prev": 1
         },
-        "value85": 3,
-        "value86": {
+        "value86": 3,
+        "value87": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 5,
             "prev": 1048578
         },
-        "value87": 6,
-        "value88": {
+        "value88": 6,
+        "value89": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
             "next": 8,
             "prev": 8
         },
-        "value89": 5,
-        "value90": {
+        "value90": 5,
+        "value91": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 2097159,
             "prev": 3
         },
-        "value91": 2097156,
-        "value92": {
+        "value92": 2097156,
+        "value93": {
             "children": 1,
             "first": 1048587,
             "parent": 0,
             "next": 1048590,
             "prev": 1048589
         },
-        "value93": 8,
-        "value94": {
+        "value94": 8,
+        "value95": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
             "next": 6,
             "prev": 6
         },
-        "value95": 2097159,
-        "value96": {
+        "value96": 2097159,
+        "value97": {
             "children": 1,
             "first": 10,
             "parent": 0,
             "next": 1048589,
             "prev": 5
         },
-        "value97": 10,
-        "value98": {
+        "value98": 10,
+        "value99": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097159,
             "next": 10,
             "prev": 10
         },
-        "value99": 1048587,
-        "value100": {
+        "value100": 1048587,
+        "value101": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097156,
             "next": 1048587,
             "prev": 1048587
         },
-        "value101": 1048589,
-        "value102": {
+        "value102": 1048589,
+        "value103": {
             "children": 1,
             "first": 16,
             "parent": 0,
             "next": 2097156,
             "prev": 2097159
         },
-        "value103": 1048590,
-        "value104": {
+        "value104": 1048590,
+        "value105": {
             "children": 1,
             "first": 5242889,
             "parent": 0,
             "next": 1048588,
             "prev": 2097156
         },
-        "value105": 5242889,
-        "value106": {
+        "value106": 5242889,
+        "value107": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048590,
             "next": 5242889,
             "prev": 5242889
         },
-        "value107": 1048588,
-        "value108": {
+        "value108": 1048588,
+        "value109": {
             "children": 1,
             "first": 15,
             "parent": 0,
             "next": 17,
             "prev": 1048590
         },
-        "value109": 15,
-        "value110": {
+        "value110": 15,
+        "value111": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048588,
             "next": 15,
             "prev": 15
         },
-        "value111": 16,
-        "value112": {
+        "value112": 16,
+        "value113": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048589,
             "next": 16,
             "prev": 16
         },
-        "value113": 17,
-        "value114": {
+        "value114": 17,
+        "value115": {
             "children": 1,
             "first": 18,
             "parent": 0,
             "next": 19,
             "prev": 1048588
         },
-        "value115": 18,
-        "value116": {
+        "value116": 18,
+        "value117": {
             "children": 0,
             "first": 4294967295,
             "parent": 17,
             "next": 18,
             "prev": 18
         },
-        "value117": 19,
-        "value118": {
+        "value118": 19,
+        "value119": {
             "children": 1,
             "first": 20,
             "parent": 0,
             "next": 21,
             "prev": 17
         },
-        "value119": 20,
-        "value120": {
+        "value120": 20,
+        "value121": {
             "children": 0,
             "first": 4294967295,
             "parent": 19,
             "next": 20,
             "prev": 20
         },
-        "value121": 21,
-        "value122": {
+        "value122": 21,
+        "value123": {
             "children": 1,
             "first": 22,
             "parent": 0,
             "next": 23,
             "prev": 19
         },
-        "value123": 22,
-        "value124": {
+        "value124": 22,
+        "value125": {
             "children": 0,
             "first": 4294967295,
             "parent": 21,
             "next": 22,
             "prev": 22
         },
-        "value125": 23,
-        "value126": {
+        "value126": 23,
+        "value127": {
             "children": 1,
             "first": 24,
             "parent": 0,
             "next": 1,
             "prev": 21
         },
-        "value127": 24,
-        "value128": {
+        "value128": 24,
+        "value129": {
             "children": 0,
             "first": 4294967295,
             "parent": 23,
             "next": 24,
             "prev": 24
         },
-        "value129": 13,
-        "value130": 1048578,
-        "value131": {
+        "value130": 13,
+        "value131": 1048578,
+        "value132": {
             "cereal_class_version": 0,
             "position": {
                 "cereal_class_version": 0,
@@ -349,8 +350,8 @@
                 "y": 1.0
             }
         },
-        "value132": 5,
-        "value133": {
+        "value133": 5,
+        "value134": {
             "position": {
                 "x": 0.0,
                 "y": 0.0,
@@ -362,8 +363,8 @@
                 "y": 1.0
             }
         },
-        "value134": 2097156,
-        "value135": {
+        "value135": 2097156,
+        "value136": {
             "position": {
                 "x": 177.0,
                 "y": 113.0,
@@ -375,8 +376,8 @@
                 "y": 1.0
             }
         },
-        "value136": 1048590,
-        "value137": {
+        "value137": 1048590,
+        "value138": {
             "position": {
                 "x": 215.0,
                 "y": 59.0,
@@ -388,8 +389,8 @@
                 "y": 1.0
             }
         },
-        "value138": 1048588,
-        "value139": {
+        "value139": 1048588,
+        "value140": {
             "position": {
                 "x": 232.0,
                 "y": 97.0,
@@ -401,8 +402,8 @@
                 "y": 1.0
             }
         },
-        "value140": 17,
-        "value141": {
+        "value141": 17,
+        "value142": {
             "position": {
                 "x": 271.0,
                 "y": 73.0,
@@ -414,8 +415,8 @@
                 "y": 1.0
             }
         },
-        "value142": 19,
-        "value143": {
+        "value143": 19,
+        "value144": {
             "position": {
                 "x": 279.0,
                 "y": 125.0,
@@ -427,8 +428,8 @@
                 "y": 1.0
             }
         },
-        "value144": 21,
-        "value145": {
+        "value145": 21,
+        "value146": {
             "position": {
                 "x": 298.0,
                 "y": 93.0,
@@ -440,8 +441,8 @@
                 "y": 1.0
             }
         },
-        "value146": 23,
-        "value147": {
+        "value147": 23,
+        "value148": {
             "position": {
                 "x": 166.0,
                 "y": 44.0,
@@ -453,8 +454,8 @@
                 "y": 1.0
             }
         },
-        "value148": 2097159,
-        "value149": {
+        "value149": 2097159,
+        "value150": {
             "position": {
                 "x": 137.0,
                 "y": 90.0,
@@ -466,8 +467,8 @@
                 "y": 1.0
             }
         },
-        "value150": 1048589,
-        "value151": {
+        "value151": 1048589,
+        "value152": {
             "position": {
                 "x": 238.0,
                 "y": 161.0,
@@ -479,8 +480,8 @@
                 "y": 1.0
             }
         },
-        "value152": 1,
-        "value153": {
+        "value153": 1,
+        "value154": {
             "position": {
                 "x": 248.0,
                 "y": 100.0,
@@ -492,8 +493,8 @@
                 "y": 1.0
             }
         },
-        "value154": 3,
-        "value155": {
+        "value155": 3,
+        "value156": {
             "position": {
                 "x": 0.0,
                 "y": 0.0,
@@ -505,9 +506,9 @@
                 "y": 1.0
             }
         },
-        "value156": 9,
-        "value157": 1048578,
-        "value158": {
+        "value157": 9,
+        "value158": 1048578,
+        "value159": {
             "cereal_class_version": 0,
             "offset": {
                 "x": 0.0,
@@ -533,8 +534,8 @@
                 "y": 0.0
             }
         },
-        "value159": 5,
-        "value160": {
+        "value160": 5,
+        "value161": {
             "offset": {
                 "x": 150.0,
                 "y": 0.0
@@ -557,8 +558,8 @@
                 "y": 0.0
             }
         },
-        "value161": 2097156,
-        "value162": {
+        "value162": 2097156,
+        "value163": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -581,8 +582,8 @@
                 "y": 0.0
             }
         },
-        "value163": 1048590,
-        "value164": {
+        "value164": 1048590,
+        "value165": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -605,8 +606,8 @@
                 "y": 0.0
             }
         },
-        "value165": 1048588,
-        "value166": {
+        "value166": 1048588,
+        "value167": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -629,8 +630,8 @@
                 "y": 0.0
             }
         },
-        "value167": 17,
-        "value168": {
+        "value168": 17,
+        "value169": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -653,8 +654,8 @@
                 "y": 0.0
             }
         },
-        "value169": 19,
-        "value170": {
+        "value170": 19,
+        "value171": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -677,8 +678,8 @@
                 "y": 0.0
             }
         },
-        "value171": 21,
-        "value172": {
+        "value172": 21,
+        "value173": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -701,8 +702,8 @@
                 "y": 0.0
             }
         },
-        "value173": 23,
-        "value174": {
+        "value174": 23,
+        "value175": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -725,9 +726,9 @@
                 "y": 0.0
             }
         },
-        "value175": 1,
         "value176": 1,
-        "value177": {
+        "value177": 1,
+        "value178": {
             "cereal_class_version": 0,
             "zoom": 4.0,
             "clear": true,
@@ -743,9 +744,9 @@
             "nearPlane": 0.0,
             "farPlane": 100.0
         },
-        "value178": 10,
-        "value179": 1048578,
-        "value180": {
+        "value179": 10,
+        "value180": 1048578,
+        "value181": {
             "cereal_class_version": 0,
             "gravityScale": 0.0,
             "staticBody": false,
@@ -786,8 +787,8 @@
             ],
             "circles": []
         },
-        "value181": 3,
-        "value182": {
+        "value182": 3,
+        "value183": {
             "gravityScale": 1.0,
             "staticBody": true,
             "fixRotation": false,
@@ -903,8 +904,8 @@
             ],
             "circles": []
         },
-        "value183": 2097156,
-        "value184": {
+        "value184": 2097156,
+        "value185": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -968,8 +969,8 @@
             ],
             "circles": []
         },
-        "value185": 1048589,
-        "value186": {
+        "value186": 1048589,
+        "value187": {
             "gravityScale": 1.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1007,8 +1008,8 @@
             ],
             "circles": []
         },
-        "value187": 1048590,
-        "value188": {
+        "value188": 1048590,
+        "value189": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1072,8 +1073,8 @@
             ],
             "circles": []
         },
-        "value189": 1048588,
-        "value190": {
+        "value190": 1048588,
+        "value191": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1137,8 +1138,8 @@
             ],
             "circles": []
         },
-        "value191": 17,
-        "value192": {
+        "value192": 17,
+        "value193": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1202,8 +1203,8 @@
             ],
             "circles": []
         },
-        "value193": 19,
-        "value194": {
+        "value194": 19,
+        "value195": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1267,8 +1268,8 @@
             ],
             "circles": []
         },
-        "value195": 21,
-        "value196": {
+        "value196": 21,
+        "value197": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1332,8 +1333,8 @@
             ],
             "circles": []
         },
-        "value197": 23,
-        "value198": {
+        "value198": 23,
+        "value199": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1397,10 +1398,10 @@
             ],
             "circles": []
         },
-        "value199": 0,
-        "value200": 1,
-        "value201": 3,
-        "value202": {
+        "value200": 0,
+        "value201": 1,
+        "value202": 3,
+        "value203": {
             "cereal_class_version": 0,
             "mapWidth": 32,
             "mapHeight": 32,
@@ -2440,9 +2441,9 @@
                 0
             ]
         },
-        "value203": 21,
-        "value204": 1048578,
-        "value205": {
+        "value204": 21,
+        "value205": 1048578,
+        "value206": {
             "cereal_class_version": 0,
             "scripts": [
                 {
@@ -2497,8 +2498,8 @@
                 }
             ]
         },
-        "value206": 6,
-        "value207": {
+        "value207": 6,
+        "value208": {
             "scripts": [
                 {
                     "script": {
@@ -2510,8 +2511,8 @@
                 }
             ]
         },
-        "value208": 5,
-        "value209": {
+        "value209": 5,
+        "value210": {
             "scripts": [
                 {
                     "script": {
@@ -2529,8 +2530,8 @@
                 }
             ]
         },
-        "value210": 0,
-        "value211": {
+        "value211": 0,
+        "value212": {
             "scripts": [
                 {
                     "script": {
@@ -2542,8 +2543,8 @@
                 }
             ]
         },
-        "value212": 2097156,
-        "value213": {
+        "value213": 2097156,
+        "value214": {
             "scripts": [
                 {
                     "script": {
@@ -2555,8 +2556,8 @@
                 }
             ]
         },
-        "value214": 2097159,
-        "value215": {
+        "value215": 2097159,
+        "value216": {
             "scripts": [
                 {
                     "script": {
@@ -2584,8 +2585,8 @@
                 }
             ]
         },
-        "value216": 10,
-        "value217": {
+        "value217": 10,
+        "value218": {
             "scripts": [
                 {
                     "script": {
@@ -2613,8 +2614,8 @@
                 }
             ]
         },
-        "value218": 1048587,
-        "value219": {
+        "value219": 1048587,
+        "value220": {
             "scripts": [
                 {
                     "script": {
@@ -2642,8 +2643,8 @@
                 }
             ]
         },
-        "value220": 1048590,
-        "value221": {
+        "value221": 1048590,
+        "value222": {
             "scripts": [
                 {
                     "script": {
@@ -2655,8 +2656,8 @@
                 }
             ]
         },
-        "value222": 5242889,
-        "value223": {
+        "value223": 5242889,
+        "value224": {
             "scripts": [
                 {
                     "script": {
@@ -2684,8 +2685,8 @@
                 }
             ]
         },
-        "value224": 1048588,
-        "value225": {
+        "value225": 1048588,
+        "value226": {
             "scripts": [
                 {
                     "script": {
@@ -2697,8 +2698,8 @@
                 }
             ]
         },
-        "value226": 15,
-        "value227": {
+        "value227": 15,
+        "value228": {
             "scripts": [
                 {
                     "script": {
@@ -2726,8 +2727,8 @@
                 }
             ]
         },
-        "value228": 16,
-        "value229": {
+        "value229": 16,
+        "value230": {
             "scripts": [
                 {
                     "script": {
@@ -2755,8 +2756,8 @@
                 }
             ]
         },
-        "value230": 17,
-        "value231": {
+        "value231": 17,
+        "value232": {
             "scripts": [
                 {
                     "script": {
@@ -2768,8 +2769,8 @@
                 }
             ]
         },
-        "value232": 18,
-        "value233": {
+        "value233": 18,
+        "value234": {
             "scripts": [
                 {
                     "script": {
@@ -2797,8 +2798,8 @@
                 }
             ]
         },
-        "value234": 19,
-        "value235": {
+        "value235": 19,
+        "value236": {
             "scripts": [
                 {
                     "script": {
@@ -2810,8 +2811,8 @@
                 }
             ]
         },
-        "value236": 20,
-        "value237": {
+        "value237": 20,
+        "value238": {
             "scripts": [
                 {
                     "script": {
@@ -2839,8 +2840,8 @@
                 }
             ]
         },
-        "value238": 21,
-        "value239": {
+        "value239": 21,
+        "value240": {
             "scripts": [
                 {
                     "script": {
@@ -2852,8 +2853,8 @@
                 }
             ]
         },
-        "value240": 22,
-        "value241": {
+        "value241": 22,
+        "value242": {
             "scripts": [
                 {
                     "script": {
@@ -2881,8 +2882,8 @@
                 }
             ]
         },
-        "value242": 23,
-        "value243": {
+        "value243": 23,
+        "value244": {
             "scripts": [
                 {
                     "script": {
@@ -2894,8 +2895,8 @@
                 }
             ]
         },
-        "value244": 24,
-        "value245": {
+        "value245": 24,
+        "value246": {
             "scripts": [
                 {
                     "script": {
@@ -2923,17 +2924,17 @@
                 }
             ]
         },
-        "value246": 22,
-        "value247": 1,
-        "value248": {
+        "value247": 22,
+        "value248": 1,
+        "value249": {
             "cereal_class_version": 1,
             "offset": {
                 "x": 0.0,
                 "y": 0.0
             },
             "dimensions": {
-                "x": 748.0,
-                "y": 433.0
+                "x": 2028.0,
+                "y": 1082.0
             },
             "parentScale": {
                 "x": 0.0,
@@ -2950,8 +2951,8 @@
             },
             "enabled": true
         },
-        "value249": 6,
-        "value250": {
+        "value250": 6,
+        "value251": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -2975,8 +2976,8 @@
             },
             "enabled": true
         },
-        "value251": 8,
-        "value252": {
+        "value252": 8,
+        "value253": {
             "offset": {
                 "x": 4.0,
                 "y": 0.0
@@ -3000,8 +3001,8 @@
             },
             "enabled": true
         },
-        "value253": 1048578,
-        "value254": {
+        "value254": 1048578,
+        "value255": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3025,8 +3026,8 @@
             },
             "enabled": true
         },
-        "value255": 2097159,
-        "value256": {
+        "value256": 2097159,
+        "value257": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3050,8 +3051,8 @@
             },
             "enabled": true
         },
-        "value257": 10,
-        "value258": {
+        "value258": 10,
+        "value259": {
             "offset": {
                 "x": 0.0,
                 "y": 20.0
@@ -3075,8 +3076,8 @@
             },
             "enabled": false
         },
-        "value259": 2097156,
-        "value260": {
+        "value260": 2097156,
+        "value261": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3100,8 +3101,8 @@
             },
             "enabled": true
         },
-        "value261": 1048587,
-        "value262": {
+        "value262": 1048587,
+        "value263": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -3125,8 +3126,8 @@
             },
             "enabled": false
         },
-        "value263": 1048590,
-        "value264": {
+        "value264": 1048590,
+        "value265": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3150,8 +3151,8 @@
             },
             "enabled": true
         },
-        "value265": 5242889,
-        "value266": {
+        "value266": 5242889,
+        "value267": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -3175,8 +3176,8 @@
             },
             "enabled": false
         },
-        "value267": 1048588,
-        "value268": {
+        "value268": 1048588,
+        "value269": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3200,8 +3201,8 @@
             },
             "enabled": true
         },
-        "value269": 15,
-        "value270": {
+        "value270": 15,
+        "value271": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -3225,8 +3226,8 @@
             },
             "enabled": false
         },
-        "value271": 1048589,
-        "value272": {
+        "value272": 1048589,
+        "value273": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3250,8 +3251,8 @@
             },
             "enabled": true
         },
-        "value273": 16,
-        "value274": {
+        "value274": 16,
+        "value275": {
             "offset": {
                 "x": 0.0,
                 "y": 16.0
@@ -3275,8 +3276,8 @@
             },
             "enabled": false
         },
-        "value275": 17,
-        "value276": {
+        "value276": 17,
+        "value277": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3300,8 +3301,8 @@
             },
             "enabled": true
         },
-        "value277": 18,
-        "value278": {
+        "value278": 18,
+        "value279": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -3325,8 +3326,8 @@
             },
             "enabled": false
         },
-        "value279": 19,
-        "value280": {
+        "value280": 19,
+        "value281": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3350,8 +3351,8 @@
             },
             "enabled": true
         },
-        "value281": 20,
-        "value282": {
+        "value282": 20,
+        "value283": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -3375,8 +3376,8 @@
             },
             "enabled": false
         },
-        "value283": 21,
-        "value284": {
+        "value284": 21,
+        "value285": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3400,8 +3401,8 @@
             },
             "enabled": true
         },
-        "value285": 22,
-        "value286": {
+        "value286": 22,
+        "value287": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -3425,8 +3426,8 @@
             },
             "enabled": false
         },
-        "value287": 23,
-        "value288": {
+        "value288": 23,
+        "value289": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3450,8 +3451,8 @@
             },
             "enabled": true
         },
-        "value289": 24,
-        "value290": {
+        "value290": 24,
+        "value291": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -3475,55 +3476,55 @@
             },
             "enabled": false
         },
-        "value291": 11,
-        "value292": 1,
-        "value293": {
+        "value292": 11,
+        "value293": 1,
+        "value294": {
             "cereal_class_version": 0,
             "scale": 1.0
         },
-        "value294": 1048578,
-        "value295": {
+        "value295": 1048578,
+        "value296": {
             "scale": 1.0
         },
-        "value296": 2097159,
-        "value297": {
+        "value297": 2097159,
+        "value298": {
             "scale": 1.0
         },
-        "value298": 2097156,
-        "value299": {
+        "value299": 2097156,
+        "value300": {
             "scale": 1.0
         },
-        "value300": 1048590,
-        "value301": {
+        "value301": 1048590,
+        "value302": {
             "scale": 1.0
         },
-        "value302": 1048588,
-        "value303": {
+        "value303": 1048588,
+        "value304": {
             "scale": 1.0
         },
-        "value304": 1048589,
-        "value305": {
+        "value305": 1048589,
+        "value306": {
             "scale": 1.0
         },
-        "value306": 17,
-        "value307": {
+        "value307": 17,
+        "value308": {
             "scale": 1.0
         },
-        "value308": 19,
-        "value309": {
+        "value309": 19,
+        "value310": {
             "scale": 1.0
         },
-        "value310": 21,
-        "value311": {
+        "value311": 21,
+        "value312": {
             "scale": 1.0
         },
-        "value312": 23,
-        "value313": {
+        "value313": 23,
+        "value314": {
             "scale": 1.0
         },
-        "value314": 1,
-        "value315": 6,
-        "value316": {
+        "value315": 1,
+        "value316": 6,
+        "value317": {
             "cereal_class_version": 0,
             "color": {
                 "r": 0.0,
@@ -3532,9 +3533,9 @@
                 "a": 0.0
             }
         },
-        "value317": 1,
-        "value318": 8,
-        "value319": {
+        "value318": 1,
+        "value319": 8,
+        "value320": {
             "cereal_class_version": 0,
             "text": "Created by Thom Zeilstra in 48 hours for Ludum Dare 55",
             "vertical": 0,
@@ -3552,9 +3553,9 @@
             },
             "wrapText": true
         },
-        "value320": 10,
         "value321": 10,
-        "value322": {
+        "value322": 10,
+        "value323": {
             "cereal_class_version": 0,
             "image": {
                 "path": "sprites/ui_attention.png"
@@ -3566,8 +3567,8 @@
                 "a": 1.0
             }
         },
-        "value323": 1048587,
-        "value324": {
+        "value324": 1048587,
+        "value325": {
             "image": {
                 "path": "sprites/ui_attention.png"
             },
@@ -3578,8 +3579,8 @@
                 "a": 1.0
             }
         },
-        "value325": 5242889,
-        "value326": {
+        "value326": 5242889,
+        "value327": {
             "image": {
                 "path": "sprites/ui_attention.png"
             },
@@ -3590,8 +3591,8 @@
                 "a": 1.0
             }
         },
-        "value327": 15,
-        "value328": {
+        "value328": 15,
+        "value329": {
             "image": {
                 "path": "sprites/ui_attention.png"
             },
@@ -3602,8 +3603,8 @@
                 "a": 1.0
             }
         },
-        "value329": 16,
-        "value330": {
+        "value330": 16,
+        "value331": {
             "image": {
                 "path": "sprites/ui_food.png"
             },
@@ -3614,8 +3615,8 @@
                 "a": 1.0
             }
         },
-        "value331": 18,
-        "value332": {
+        "value332": 18,
+        "value333": {
             "image": {
                 "path": "sprites/ui_attention.png"
             },
@@ -3626,8 +3627,8 @@
                 "a": 1.0
             }
         },
-        "value333": 20,
-        "value334": {
+        "value334": 20,
+        "value335": {
             "image": {
                 "path": "sprites/ui_attention.png"
             },
@@ -3638,8 +3639,8 @@
                 "a": 1.0
             }
         },
-        "value335": 22,
-        "value336": {
+        "value336": 22,
+        "value337": {
             "image": {
                 "path": "sprites/ui_attention.png"
             },
@@ -3650,8 +3651,8 @@
                 "a": 1.0
             }
         },
-        "value337": 24,
-        "value338": {
+        "value338": 24,
+        "value339": {
             "image": {
                 "path": "sprites/ui_attention.png"
             },
@@ -3662,8 +3663,8 @@
                 "a": 1.0
             }
         },
-        "value339": 1048578,
-        "value340": {
+        "value340": 1048578,
+        "value341": {
             "image": {
                 "path": "sprites/ui_controls.png"
             },
@@ -3674,6 +3675,6 @@
                 "a": 0.0
             }
         },
-        "value341": 0
+        "value342": 0
     }
 }

@@ -27,10 +27,10 @@ function hide()
     if entity:get_ui_element().enabled then
         entity:get_ui_element().dimensions = vector2.new(sizeX, sizeY)
         routine.create(function()
-            routine.wait_seconds_func(0.5, function(x)
+            routine.wait_seconds_func(0.25, function(x)
                 entity:get_ui_element().dimensions = vector2.new(
-                    sizeX * out_back(1 - x),
-                    sizeY * out_back(1 - x)
+                    sizeX * out_quart(1 - x),
+                    sizeY * out_quart(1 - x)
                 )
             end)
             entity:get_ui_element().enabled = false

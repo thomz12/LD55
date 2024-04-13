@@ -18,13 +18,14 @@ function on_contact(this, other)
                 customer = player_customer_env.following
                 local customer_env = customer:get_scripts():get_script_env("customer.lua")
                 local pos = entity:get_transform().position
-                if math.random(0, 1) == 0 then
-                    customer_env.target_pos = vector2.new(pos.x - 12, pos.y + 4)
-                else
-                    customer_env.target_pos = vector2.new(pos.x + 12, pos.y + 4)
-                end
-                customer_env.target_dist = 1.0
                 customer_env.seat_customer(entity)
+                if math.random(0, 1) == 0 then
+                    customer_env.move_towards(vector2.new(pos.x - 12, pos.y + 4))
+                else
+                    customer_env.move_towards(vector2.new(pos.x + 12, pos.y + 4))
+                end
+                customer_env.target_pos = nil
+                customer_env.target_dist = 0.0
                 player_customer_env.following = nil
                 bounce()
             end
