@@ -50,6 +50,11 @@ function update(delta_time)
         velocity.y = -1
     end
 
+    if is_key_pressed("f2") then
+        find_entity("camera"):get_scripts():get_script_env("camera.lua").zoom_in(
+            vector2.new(transform.position.x, transform.position.y), 3.0, 0.5)
+    end
+
     if any_input == true then 
         if not moved then
             if tutorial_triggered then

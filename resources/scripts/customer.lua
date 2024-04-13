@@ -24,10 +24,10 @@ function start()
     entry_pos = vector2.new(90, 90)
 end
 
-function move_towards(position, duration)
+function move_towards(position, duration, on_arrive)
     local start_pos = vector2.new(entity:get_transform().position.x, entity:get_transform().position.y)
     routine.create(function()
-        routine.wait_seconds_func(1.0, function(x)
+        routine.wait_seconds_func(duration, function(x)
             -- walking animation
             local sprite = entity:get_sprite()
             frame_timer = frame_timer + delta
@@ -37,7 +37,6 @@ function move_towards(position, duration)
             end
 
             local transform = entity:get_transform()
-            print(tostring(start_pos.x) .. " - " .. tostring(transform.position.x) .. " - " .. tostring(position.x))
             transform.position = vector3.new(
                 lerp(start_pos.x, position.x, x),
                 lerp(start_pos.y, position.y, x),
@@ -47,6 +46,7 @@ function move_towards(position, duration)
         end)
         local sprite = entity:get_sprite()
         sprite.origin.x = 0
+        on_arrive()
     end)
 end
 
@@ -88,9 +88,21 @@ function wait_payment(player)
     table:get_scripts():get_script_env("table.lua").customer = nil
     find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
     interact_func = nil
-    target_pos = entry_pos
-    target_dist = 1.0
+    entity:get_transform().scale.x = -1
 
+    -- find_entity("camera"):get_scripts():get_script_env("camera.lua").zoom_in(
+    --     vector2.new(entity:get_transform().position.x, entity:get_transform().position.y), 1.0, 0.5)
+
+    routine.create(function()
+        routine.wait_seconds(3.0)
+        routine.wait_seconds_func(1.0, function(x)
+            entity:get_sprite().color.a = 1.0 - x
+        end)
+    end)
+
+    move_towards(entry_pos, 4.0, function()
+        destroy_entity(entity)
+    end)
     if not find_entity("customer_spawner"):get_scripts():get_script_env("customer_spawner.lua").is_spawning() then
         find_entity("customer_spawner"):get_scripts():get_script_env("customer_spawner.lua").start_spawning()
     end
@@ -157,11 +169,13 @@ function on_contact(this, other)
 end
 
 function bounce()
+    scaleX = entity:get_transform().scale.x
     routine.create(function()
         routine.wait_seconds_func(0.5, function(x)
             local transform = entity:get_transform()
             local scale = 1.0 + (0.5 * in_elastic(1.0 - x))
-            transform.scale = vector2.new(scale, scale)
+            if scaleX < 0.0 then scale = scale * -1.0 end
+            transform.scale = vector2.new(scale, math.abs(scale))
         end)
     end)
 end

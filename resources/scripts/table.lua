@@ -20,9 +20,13 @@ function on_contact(this, other)
                 local pos = entity:get_transform().position
                 customer_env.seat_customer(entity)
                 if math.random(0, 1) == 0 then
-                    customer_env.move_towards(vector2.new(pos.x - 12, pos.y + 4))
+                    customer_env.move_towards(vector2.new(pos.x - 12, pos.y + 4), 1.0, function()
+                        customer:get_transform().scale.x = 1
+                    end)
                 else
-                    customer_env.move_towards(vector2.new(pos.x + 12, pos.y + 4))
+                    customer_env.move_towards(vector2.new(pos.x + 12, pos.y + 4), 1.0, function()
+                        customer:get_transform().scale.x = -1
+                    end)
                 end
                 customer_env.target_pos = nil
                 customer_env.target_dist = 0.0
