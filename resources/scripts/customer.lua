@@ -4,6 +4,8 @@ target_pos = nil
 target_dist = nil
 
 local interact_func = nil
+local table = nil
+local entry_pos = nil
 
 -- customer states:
 -- 0: wait to be seated (needs player)
@@ -18,6 +20,7 @@ local interact_func = nil
 function start()
     entity:get_sprite().origin = vector2.new(0, 16)
     interact_func = wait_interact
+    entry_pos = vector2.new(90, 90)
 end
 
 function update(delta_time)
@@ -53,11 +56,37 @@ function update(delta_time)
     end
 end
 
-function seat_customer()
+function wait_payment(player)
+    info("Payment!")
+    table:get_scripts():get_script_env("table.lua").customer = nil
+    find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
+    interact_func = nil
+    target_pos = entry_pos
+    target_dist = 1.0
+end
+
+function wait_food(player)
+    if player:get_scripts():get_script_env("player_food.lua").get_order() then
+        interact_func = nil
+        bounce()
+        routine.create(function()
+            routine.wait_seconds(5.0)
+            find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show()
+            interact_func = wait_payment
+        end)
+    end
+end
+
+function seat_customer(my_table)
+    table = my_table
     routine.create(function()
         routine.wait_seconds(4.0)
+        bounce()
+        find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show()
         interact_func = function(player)
-            interact_func = nil
+            interact_func = wait_food
+            player:get_scripts():get_script_env("player_food.lua").add_order()
+            find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
             bounce()
         end
     end)

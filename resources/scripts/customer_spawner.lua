@@ -10,11 +10,11 @@ end
 
 function spawn()
     local customer = create_entity("customer")
-    local transform = customer:add_transform()
-    local sprite = customer:add_sprite()
-    local scripts = customer:add_scripts()
 
+    local transform = customer:add_transform()
     transform.position = entity:get_transform().position
+
+    local sprite = customer:add_sprite()
     sprite.texture = texture.new("sprites/player.png")
     sprite.dimensions = vector2.new(16, 16)
 
@@ -26,6 +26,7 @@ function spawn()
     physics.boxes:add(box)
     customer:update_physics()
 
+    local scripts = customer:add_scripts()
     scripts:add_script(load_script("scripts/customer.lua"))
 
     find_entity("img_entry_attention"):get_scripts():get_script_env("ui_popup.lua").show()
