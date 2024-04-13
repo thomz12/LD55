@@ -1,8 +1,8 @@
 {
     "value0": {
         "cereal_class_version": 0,
-        "value0": 8,
-        "value1": 8,
+        "value0": 11,
+        "value1": 11,
         "value2": 0,
         "value3": 1,
         "value4": 1048578,
@@ -10,110 +10,149 @@
         "value6": 6,
         "value7": 5,
         "value8": 2097156,
-        "value9": 7,
-        "value10": 8,
-        "value11": 0,
-        "value12": {
+        "value9": 8,
+        "value10": 2097159,
+        "value11": 3145737,
+        "value12": 10,
+        "value13": 11,
+        "value14": 0,
+        "value15": {
             "cereal_class_version": 0,
             "name": "root"
         },
-        "value13": 1,
-        "value14": {
+        "value16": 1,
+        "value17": {
             "name": "camera"
         },
-        "value15": 1048578,
-        "value16": {
+        "value18": 1048578,
+        "value19": {
             "name": "player"
         },
-        "value17": 3,
-        "value18": {
+        "value20": 3,
+        "value21": {
             "name": "tilemap"
         },
-        "value19": 6,
-        "value20": {
+        "value22": 6,
+        "value23": {
             "name": "panel_fade"
         },
-        "value21": 5,
-        "value22": {
+        "value24": 5,
+        "value25": {
             "name": "background"
         },
-        "value23": 2097156,
-        "value24": {
+        "value26": 2097156,
+        "value27": {
             "name": "table"
         },
-        "value25": 7,
-        "value26": {
-            "name": "table"
-        },
-        "value27": 8,
-        "value28": 0,
+        "value28": 8,
         "value29": {
+            "name": "text_created_by"
+        },
+        "value30": 2097159,
+        "value31": {
+            "name": "customer_spawner"
+        },
+        "value32": 3145737,
+        "value33": {
+            "name": "table"
+        },
+        "value34": 10,
+        "value35": {
+            "name": "img_entry_attention"
+        },
+        "value36": 11,
+        "value37": 0,
+        "value38": {
             "cereal_class_version": 0,
-            "children": 6,
+            "children": 7,
             "first": 1,
             "parent": 4294967295,
             "next": 0,
             "prev": 0
         },
-        "value30": 1,
-        "value31": {
-            "children": 1,
-            "first": 6,
+        "value39": 1,
+        "value40": {
+            "children": 2,
+            "first": 8,
             "parent": 0,
             "next": 1048578,
-            "prev": 7
+            "prev": 3145737
         },
-        "value32": 1048578,
-        "value33": {
+        "value41": 1048578,
+        "value42": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 3,
             "prev": 1
         },
-        "value34": 3,
-        "value35": {
+        "value43": 3,
+        "value44": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 5,
             "prev": 1048578
         },
-        "value36": 6,
-        "value37": {
+        "value45": 6,
+        "value46": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1,
+            "next": 8,
+            "prev": 8
+        },
+        "value47": 5,
+        "value48": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 0,
+            "next": 2097159,
+            "prev": 3
+        },
+        "value49": 2097156,
+        "value50": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 0,
+            "next": 3145737,
+            "prev": 2097159
+        },
+        "value51": 8,
+        "value52": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
             "next": 6,
             "prev": 6
         },
-        "value38": 5,
-        "value39": {
-            "children": 0,
-            "first": 4294967295,
+        "value53": 2097159,
+        "value54": {
+            "children": 1,
+            "first": 10,
             "parent": 0,
             "next": 2097156,
-            "prev": 3
-        },
-        "value40": 2097156,
-        "value41": {
-            "children": 0,
-            "first": 4294967295,
-            "parent": 0,
-            "next": 7,
             "prev": 5
         },
-        "value42": 7,
-        "value43": {
+        "value55": 3145737,
+        "value56": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 1,
             "prev": 2097156
         },
-        "value44": 6,
-        "value45": 1048578,
-        "value46": {
+        "value57": 10,
+        "value58": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 2097159,
+            "next": 10,
+            "prev": 10
+        },
+        "value59": 7,
+        "value60": 1048578,
+        "value61": {
             "cereal_class_version": 0,
             "position": {
                 "cereal_class_version": 0,
@@ -128,8 +167,8 @@
                 "y": 1.0
             }
         },
-        "value47": 5,
-        "value48": {
+        "value62": 5,
+        "value63": {
             "position": {
                 "x": 0.0,
                 "y": 0.0,
@@ -141,8 +180,8 @@
                 "y": 1.0
             }
         },
-        "value49": 2097156,
-        "value50": {
+        "value64": 2097156,
+        "value65": {
             "position": {
                 "x": 177.0,
                 "y": 113.0,
@@ -154,11 +193,11 @@
                 "y": 1.0
             }
         },
-        "value51": 7,
-        "value52": {
+        "value66": 3145737,
+        "value67": {
             "position": {
-                "x": 232.0,
-                "y": 103.0,
+                "x": 145.0,
+                "y": 62.0,
                 "z": -2.0
             },
             "rotation": 0.0,
@@ -167,8 +206,8 @@
                 "y": 1.0
             }
         },
-        "value53": 3,
-        "value54": {
+        "value68": 3,
+        "value69": {
             "position": {
                 "x": 0.0,
                 "y": 0.0,
@@ -180,8 +219,21 @@
                 "y": 1.0
             }
         },
-        "value55": 1,
-        "value56": {
+        "value70": 2097159,
+        "value71": {
+            "position": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            }
+        },
+        "value72": 1,
+        "value73": {
             "position": {
                 "x": 248.0,
                 "y": 100.0,
@@ -193,9 +245,9 @@
                 "y": 1.0
             }
         },
-        "value57": 4,
-        "value58": 1048578,
-        "value59": {
+        "value74": 4,
+        "value75": 1048578,
+        "value76": {
             "cereal_class_version": 0,
             "offset": {
                 "x": 0.0,
@@ -221,8 +273,8 @@
                 "y": 0.0
             }
         },
-        "value60": 5,
-        "value61": {
+        "value77": 5,
+        "value78": {
             "offset": {
                 "x": 150.0,
                 "y": 0.0
@@ -245,8 +297,8 @@
                 "y": 0.0
             }
         },
-        "value62": 2097156,
-        "value63": {
+        "value79": 2097156,
+        "value80": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -269,8 +321,8 @@
                 "y": 0.0
             }
         },
-        "value64": 7,
-        "value65": {
+        "value81": 3145737,
+        "value82": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -293,9 +345,9 @@
                 "y": 0.0
             }
         },
-        "value66": 1,
-        "value67": 1,
-        "value68": {
+        "value83": 1,
+        "value84": 1,
+        "value85": {
             "cereal_class_version": 0,
             "zoom": 3.0,
             "clear": true,
@@ -311,9 +363,9 @@
             "nearPlane": 0.0,
             "farPlane": 100.0
         },
-        "value69": 4,
-        "value70": 1048578,
-        "value71": {
+        "value86": 4,
+        "value87": 1048578,
+        "value88": {
             "cereal_class_version": 0,
             "gravityScale": 0.0,
             "staticBody": false,
@@ -354,8 +406,8 @@
             ],
             "circles": []
         },
-        "value72": 3,
-        "value73": {
+        "value89": 3,
+        "value90": {
             "gravityScale": 1.0,
             "staticBody": true,
             "fixRotation": false,
@@ -415,12 +467,64 @@
                     "isSensor": false,
                     "friction": 0.5,
                     "restitution": 0.10000000149011612
+                },
+                {
+                    "value0": {
+                        "density": 1.0,
+                        "angle": 0.0,
+                        "offset": {
+                            "x": 71.0,
+                            "y": 96.0
+                        },
+                        "isSensor": false,
+                        "friction": 0.5,
+                        "restitution": 0.10000000149011612
+                    },
+                    "size": {
+                        "x": 16.0,
+                        "y": 226.0
+                    },
+                    "density": 1.0,
+                    "angle": 0.0,
+                    "offset": {
+                        "x": 71.0,
+                        "y": 96.0
+                    },
+                    "isSensor": false,
+                    "friction": 0.5,
+                    "restitution": 0.10000000149011612
+                },
+                {
+                    "value0": {
+                        "density": 1.0,
+                        "angle": 0.0,
+                        "offset": {
+                            "x": 424.0,
+                            "y": 97.0
+                        },
+                        "isSensor": false,
+                        "friction": 0.5,
+                        "restitution": 0.10000000149011612
+                    },
+                    "size": {
+                        "x": 16.0,
+                        "y": 209.0
+                    },
+                    "density": 1.0,
+                    "angle": 0.0,
+                    "offset": {
+                        "x": 424.0,
+                        "y": 97.0
+                    },
+                    "isSensor": false,
+                    "friction": 0.5,
+                    "restitution": 0.10000000149011612
                 }
             ],
             "circles": []
         },
-        "value74": 2097156,
-        "value75": {
+        "value91": 2097156,
+        "value92": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -454,12 +558,38 @@
                     "isSensor": false,
                     "friction": 0.5,
                     "restitution": 0.10000000149011612
+                },
+                {
+                    "value0": {
+                        "density": 1.0,
+                        "angle": 0.0,
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isSensor": true,
+                        "friction": 0.5,
+                        "restitution": 0.10000000149011612
+                    },
+                    "size": {
+                        "x": 28.0,
+                        "y": 28.0
+                    },
+                    "density": 1.0,
+                    "angle": 0.0,
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "isSensor": true,
+                    "friction": 0.5,
+                    "restitution": 0.10000000149011612
                 }
             ],
             "circles": []
         },
-        "value76": 7,
-        "value77": {
+        "value93": 3145737,
+        "value94": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -493,14 +623,40 @@
                     "isSensor": false,
                     "friction": 0.5,
                     "restitution": 0.10000000149011612
+                },
+                {
+                    "value0": {
+                        "density": 1.0,
+                        "angle": 0.0,
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isSensor": true,
+                        "friction": 0.5,
+                        "restitution": 0.10000000149011612
+                    },
+                    "size": {
+                        "x": 28.0,
+                        "y": 28.0
+                    },
+                    "density": 1.0,
+                    "angle": 0.0,
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "isSensor": true,
+                    "friction": 0.5,
+                    "restitution": 0.10000000149011612
                 }
             ],
             "circles": []
         },
-        "value78": 0,
-        "value79": 1,
-        "value80": 3,
-        "value81": {
+        "value95": 0,
+        "value96": 1,
+        "value97": 3,
+        "value98": {
             "cereal_class_version": 0,
             "mapWidth": 32,
             "mapHeight": 32,
@@ -1540,9 +1696,9 @@
                 0
             ]
         },
-        "value82": 4,
-        "value83": 1048578,
-        "value84": {
+        "value99": 8,
+        "value100": 1048578,
+        "value101": {
             "cereal_class_version": 0,
             "scripts": [
                 {
@@ -1556,7 +1712,7 @@
                             {
                                 "value0": "player_speed",
                                 "value1": 3,
-                                "value2": 4.0
+                                "value2": 6.0
                             },
                             {
                                 "value0": "player_frame_dur",
@@ -1565,11 +1721,19 @@
                             }
                         ]
                     }
+                },
+                {
+                    "script": {
+                        "path": "scripts/player_customer.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
                 }
             ]
         },
-        "value85": 6,
-        "value86": {
+        "value102": 6,
+        "value103": {
             "scripts": [
                 {
                     "script": {
@@ -1581,8 +1745,8 @@
                 }
             ]
         },
-        "value87": 5,
-        "value88": {
+        "value104": 5,
+        "value105": {
             "scripts": [
                 {
                     "script": {
@@ -1600,8 +1764,8 @@
                 }
             ]
         },
-        "value89": 0,
-        "value90": {
+        "value106": 0,
+        "value107": {
             "scripts": [
                 {
                     "script": {
@@ -1613,17 +1777,80 @@
                 }
             ]
         },
-        "value91": 2,
-        "value92": 1,
-        "value93": {
-            "cereal_class_version": 0,
+        "value108": 2097156,
+        "value109": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/table.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value110": 2097159,
+        "value111": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/customer_spawner.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value112": 3145737,
+        "value113": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/table.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value114": 10,
+        "value115": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/ui/ui_popup.lua"
+                    },
+                    "data": {
+                        "value0": [
+                            {
+                                "value0": "sizeY",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "sizeX",
+                                "value1": 3,
+                                "value2": 16.0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "value116": 6,
+        "value117": 1,
+        "value118": {
+            "cereal_class_version": 1,
             "offset": {
                 "x": 0.0,
                 "y": 0.0
             },
             "dimensions": {
-                "x": 1980.0,
-                "y": 1004.0
+                "x": 2030.0,
+                "y": 1056.0
             },
             "parentScale": {
                 "x": 0.0,
@@ -1637,10 +1864,11 @@
             "anchor": {
                 "x": 0.5,
                 "y": 0.5
-            }
+            },
+            "enabled": true
         },
-        "value94": 6,
-        "value95": {
+        "value119": 6,
+        "value120": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -1661,17 +1889,126 @@
             "anchor": {
                 "x": 0.5,
                 "y": 0.5
-            }
+            },
+            "enabled": true
         },
-        "value96": 1,
-        "value97": 1,
-        "value98": {
+        "value121": 8,
+        "value122": {
+            "offset": {
+                "x": 4.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 300.0,
+                "y": 36.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchor": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "enabled": true
+        },
+        "value123": 1048578,
+        "value124": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value125": 2097159,
+        "value126": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value127": 10,
+        "value128": {
+            "offset": {
+                "x": 0.0,
+                "y": 20.0
+            },
+            "dimensions": {
+                "x": 16.0,
+                "y": 16.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": false
+        },
+        "value129": 3,
+        "value130": 1,
+        "value131": {
             "cereal_class_version": 0,
             "scale": 1.0
         },
-        "value99": 1,
-        "value100": 6,
-        "value101": {
+        "value132": 1048578,
+        "value133": {
+            "scale": 1.0
+        },
+        "value134": 2097159,
+        "value135": {
+            "scale": 1.0
+        },
+        "value136": 1,
+        "value137": 6,
+        "value138": {
             "cereal_class_version": 0,
             "color": {
                 "r": 0.0,
@@ -1680,8 +2017,40 @@
                 "a": 0.0
             }
         },
-        "value102": 0,
-        "value103": 0,
-        "value104": 0
+        "value139": 1,
+        "value140": 8,
+        "value141": {
+            "cereal_class_version": 0,
+            "text": "Created by Thom Zeilstra in 48 hours for Ludum Dare 55",
+            "vertical": 0,
+            "horizontal": 0,
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 0.49803921580314639
+            },
+            "fontSize": 16.0,
+            "font": {
+                "cereal_class_version": 0,
+                "path": "fonts/aldo_the_apache.ttf"
+            },
+            "wrapText": true
+        },
+        "value142": 1,
+        "value143": 10,
+        "value144": {
+            "cereal_class_version": 0,
+            "image": {
+                "path": "sprites/ui_attention.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value145": 0
     }
 }
