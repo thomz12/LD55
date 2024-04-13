@@ -5,6 +5,6 @@
         "author": "Juicebox",
         "engineVersion": "0.1.0",
         "version": "1.0.0",
-        "startScene": "scenes/main.jbscene"
+        "startScene": "scenes/splash.jbscene"
     }
 }
