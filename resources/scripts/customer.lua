@@ -18,7 +18,7 @@ local entry_pos = nil
 -- 7: leaving
 
 function start()
-    entity:get_sprite().origin = vector2.new(0, 16)
+    entity:get_sprite().origin = vector2.new(0, 16 * math.random(1, 3))
     interact_func = wait_interact
     entry_pos = vector2.new(90, 90)
 end
@@ -104,7 +104,7 @@ function seat_customer(my_table)
         interact_func = function(player)
             interact_func = wait_food
             player:get_scripts():get_script_env("player_food.lua").add_order()
-            find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_wait.png")
+            find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_food.png")
             bounce()
         end
     end)

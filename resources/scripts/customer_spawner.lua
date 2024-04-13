@@ -37,7 +37,7 @@ function spawn()
 
     local sprite = customer:add_sprite()
     sprite.texture = texture.new("sprites/player.png")
-    sprite.dimensions = vector2.new(16, 16)
+    sprite.dimensions = vector2.new(16, 15)
 
     local physics = customer:add_physics()
     local box = box_shape.new()
