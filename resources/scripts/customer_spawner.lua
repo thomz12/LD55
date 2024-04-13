@@ -19,6 +19,10 @@ function stop_spawning()
     enabled = false
 end
 
+function is_spawning()
+    return enabled
+end
+
 function update()
     if is_key_pressed("f1") then
         spawn()

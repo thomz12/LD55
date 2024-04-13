@@ -9,11 +9,33 @@ function show(texture_name)
         entity:get_ui_image().image = texture.new(texture_name)
     end
 
-    entity:get_ui_element().enabled = true
+    if not entity:get_ui_element().enabled then
+        entity:get_ui_element().dimensions = vector2.new(0, 0)
+        entity:get_ui_element().enabled = true
+        routine.create(function()
+            routine.wait_seconds_func(0.5, function(x)
+                entity:get_ui_element().dimensions = vector2.new(
+                    sizeX * out_back(x),
+                    sizeY * out_back(x)
+                )
+            end)
+        end)
+    end
 end
 
 function hide()
-    entity:get_ui_element().enabled = false
+    if entity:get_ui_element().enabled then
+        entity:get_ui_element().dimensions = vector2.new(sizeX, sizeY)
+        routine.create(function()
+            routine.wait_seconds_func(0.5, function(x)
+                entity:get_ui_element().dimensions = vector2.new(
+                    sizeX * out_back(1 - x),
+                    sizeY * out_back(1 - x)
+                )
+            end)
+            entity:get_ui_element().enabled = false
+        end)
+    end
 end
 
 function update(delta_time)

@@ -62,6 +62,10 @@ function wait_payment(player)
     interact_func = nil
     target_pos = entry_pos
     target_dist = 1.0
+
+    if not find_entity("customer_spawner"):get_scripts():get_script_env("customer_spawner.lua").is_spawning() then
+        find_entity("customer_spawner"):get_scripts():get_script_env("customer_spawner.lua").start_spawning()
+    end
 end
 
 function wait_food(player)

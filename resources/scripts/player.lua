@@ -60,7 +60,7 @@ function update(delta_time)
                 end)
             end
             moved = true
-            find_entity("customer_spawner"):get_scripts():get_script_env("customer_spawner.lua").start_spawning()
+            find_entity("customer_spawner"):get_scripts():get_script_env("customer_spawner.lua").spawn()
         end
         velocity:normalize()
         velocity.x = velocity.x * player_speed

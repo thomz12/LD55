@@ -2567,7 +2567,7 @@
                             {
                                 "value0": "enabled",
                                 "value1": 1,
-                                "value2": true
+                                "value2": false
                             },
                             {
                                 "value0": "delay",
