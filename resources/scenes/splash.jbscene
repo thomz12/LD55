@@ -1,8 +1,8 @@
 {
     "value0": {
         "cereal_class_version": 0,
-        "value0": 7,
-        "value1": 7,
+        "value0": 10,
+        "value1": 8,
         "value2": 0,
         "value3": 1,
         "value4": 1048578,
@@ -11,96 +11,111 @@
         "value7": 5,
         "value8": 6,
         "value9": 7,
-        "value10": 0,
-        "value11": {
+        "value10": 1048584,
+        "value11": 1048585,
+        "value12": 8,
+        "value13": 0,
+        "value14": {
             "cereal_class_version": 0,
             "name": "root"
         },
-        "value12": 1,
-        "value13": {
+        "value15": 1,
+        "value16": {
             "name": "camera"
         },
-        "value14": 1048578,
-        "value15": {
+        "value17": 1048578,
+        "value18": {
             "name": "img_juicebox"
         },
-        "value16": 1048580,
-        "value17": {
+        "value19": 1048580,
+        "value20": {
             "name": "txt_juicebox_shadow"
         },
-        "value18": 1048579,
-        "value19": {
+        "value21": 1048579,
+        "value22": {
             "name": "txt_juicebox"
         },
-        "value20": 5,
-        "value21": {
+        "value23": 5,
+        "value24": {
             "name": "elm_juicebox_text"
         },
-        "value22": 6,
-        "value23": {
+        "value25": 6,
+        "value26": {
             "name": "panel_fade"
         },
-        "value24": 7,
-        "value25": 0,
-        "value26": {
+        "value27": 7,
+        "value28": {
+            "name": "background"
+        },
+        "value29": 8,
+        "value30": 0,
+        "value31": {
             "cereal_class_version": 0,
-            "children": 1,
+            "children": 2,
             "first": 1,
             "parent": 4294967295,
             "next": 0,
             "prev": 0
         },
-        "value27": 1,
-        "value28": {
+        "value32": 1,
+        "value33": {
             "children": 3,
             "first": 1048578,
             "parent": 0,
-            "next": 1,
-            "prev": 1
+            "next": 7,
+            "prev": 7
         },
-        "value29": 1048578,
-        "value30": {
+        "value34": 1048578,
+        "value35": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
             "next": 5,
             "prev": 6
         },
-        "value31": 1048580,
-        "value32": {
+        "value36": 1048580,
+        "value37": {
             "children": 0,
             "first": 4294967295,
             "parent": 5,
             "next": 1048579,
             "prev": 1048579
         },
-        "value33": 1048579,
-        "value34": {
+        "value38": 1048579,
+        "value39": {
             "children": 0,
             "first": 4294967295,
             "parent": 5,
             "next": 1048580,
             "prev": 1048580
         },
-        "value35": 5,
-        "value36": {
+        "value40": 5,
+        "value41": {
             "children": 2,
             "first": 1048580,
             "parent": 1,
             "next": 6,
             "prev": 1048578
         },
-        "value37": 6,
-        "value38": {
+        "value42": 6,
+        "value43": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
             "next": 1048578,
             "prev": 5
         },
-        "value39": 1,
-        "value40": 1,
-        "value41": {
+        "value44": 7,
+        "value45": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 0,
+            "next": 1,
+            "prev": 1
+        },
+        "value46": 2,
+        "value47": 7,
+        "value48": {
             "cereal_class_version": 0,
             "position": {
                 "cereal_class_version": 0,
@@ -115,15 +130,54 @@
                 "y": 1.0
             }
         },
-        "value42": 0,
-        "value43": 1,
-        "value44": 1,
-        "value45": {
+        "value49": 1,
+        "value50": {
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            }
+        },
+        "value51": 1,
+        "value52": 7,
+        "value53": {
             "cereal_class_version": 0,
-            "zoom": 1.0,
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "color": {
+                "cereal_class_version": 0,
+                "r": 0.12156862765550614,
+                "g": 0.12156862765550614,
+                "b": 0.12156862765550614,
+                "a": 1.0
+            },
+            "texture": {
+                "cereal_class_version": 0,
+                "path": "sprites/background.png"
+            },
+            "dimensions": {
+                "x": 10000.0,
+                "y": 10000.0
+            },
+            "origin": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        "value54": 1,
+        "value55": 1,
+        "value56": {
+            "cereal_class_version": 0,
+            "zoom": 3.0,
             "clear": true,
             "clearColor": {
-                "cereal_class_version": 0,
                 "r": 0.12236285209655762,
                 "g": 0.12236285209655762,
                 "b": 0.12236285209655762,
@@ -135,12 +189,12 @@
             "nearPlane": 0.0,
             "farPlane": 100.0
         },
-        "value46": 0,
-        "value47": 0,
-        "value48": 0,
-        "value49": 2,
-        "value50": 1048578,
-        "value51": {
+        "value57": 0,
+        "value58": 0,
+        "value59": 0,
+        "value60": 3,
+        "value61": 1048578,
+        "value62": {
             "cereal_class_version": 0,
             "scripts": [
                 {
@@ -155,8 +209,8 @@
                 }
             ]
         },
-        "value52": 6,
-        "value53": {
+        "value63": 6,
+        "value64": {
             "scripts": [
                 {
                     "script": {
@@ -168,9 +222,28 @@
                 }
             ]
         },
-        "value54": 6,
-        "value55": 1,
-        "value56": {
+        "value65": 7,
+        "value66": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/background.lua"
+                    },
+                    "data": {
+                        "value0": [
+                            {
+                                "value0": "scroll_speed",
+                                "value1": 3,
+                                "value2": 16.0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "value67": 6,
+        "value68": 1,
+        "value69": {
             "cereal_class_version": 0,
             "offset": {
                 "x": 0.0,
@@ -178,7 +251,7 @@
             },
             "dimensions": {
                 "x": 1980.0,
-                "y": 1004.0
+                "y": 1053.0
             },
             "parentScale": {
                 "x": 0.0,
@@ -194,8 +267,8 @@
                 "y": 0.5
             }
         },
-        "value57": 1048578,
-        "value58": {
+        "value70": 1048578,
+        "value71": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -218,8 +291,8 @@
                 "y": 0.5
             }
         },
-        "value59": 1048580,
-        "value60": {
+        "value72": 1048580,
+        "value73": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -242,8 +315,8 @@
                 "y": 0.5
             }
         },
-        "value61": 1048579,
-        "value62": {
+        "value74": 1048579,
+        "value75": {
             "offset": {
                 "x": -5.0,
                 "y": 5.0
@@ -266,8 +339,8 @@
                 "y": 0.5
             }
         },
-        "value63": 5,
-        "value64": {
+        "value76": 5,
+        "value77": {
             "offset": {
                 "x": 0.0,
                 "y": -96.0
@@ -290,8 +363,8 @@
                 "y": 0.5
             }
         },
-        "value65": 6,
-        "value66": {
+        "value78": 6,
+        "value79": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -314,15 +387,15 @@
                 "y": 0.5
             }
         },
-        "value67": 1,
-        "value68": 1,
-        "value69": {
+        "value80": 1,
+        "value81": 1,
+        "value82": {
             "cereal_class_version": 0,
             "scale": 1.0
         },
-        "value70": 1,
-        "value71": 6,
-        "value72": {
+        "value83": 1,
+        "value84": 6,
+        "value85": {
             "cereal_class_version": 0,
             "color": {
                 "r": 0.0,
@@ -331,9 +404,9 @@
                 "a": 0.0
             }
         },
-        "value73": 2,
-        "value74": 1048580,
-        "value75": {
+        "value86": 2,
+        "value87": 1048580,
+        "value88": {
             "cereal_class_version": 0,
             "text": "Juicebox",
             "vertical": 1,
@@ -351,8 +424,8 @@
             },
             "wrapText": false
         },
-        "value76": 1048579,
-        "value77": {
+        "value89": 1048579,
+        "value90": {
             "text": "Juicebox",
             "vertical": 1,
             "horizontal": 1,
@@ -368,12 +441,11 @@
             },
             "wrapText": false
         },
-        "value78": 1,
-        "value79": 1048578,
-        "value80": {
+        "value91": 1,
+        "value92": 1048578,
+        "value93": {
             "cereal_class_version": 0,
             "image": {
-                "cereal_class_version": 0,
                 "path": "sprites/juicebox_icon.png"
             },
             "color": {
@@ -383,6 +455,6 @@
                 "a": 1.0
             }
         },
-        "value81": 0
+        "value94": 0
     }
 }
