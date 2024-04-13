@@ -1,15 +1,22 @@
-enabled = true
 delay = 10.0
+min_delay = 2.0
 
-function start()
+local enabled = false
+
+function start_spawning()
+    enabled = true
     routine.create(function()
         while enabled do
             spawn()
             routine.wait_seconds(delay)
             delay = delay * 0.95
-            info("new customer! " .. tostring(delay))
+            if (delay < min_delay) then delay = min_delay end
         end
     end)
+end
+
+function stop_spawning()
+    enabled = false
 end
 
 function update()

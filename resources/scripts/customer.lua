@@ -66,6 +66,7 @@ end
 
 function wait_food(player)
     if player:get_scripts():get_script_env("player_food.lua").get_order() then
+        find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
         local food_entity = player:get_scripts():get_script_env("player_carry.lua").pop_food()
         local food_startX = food_entity:get_transform().position.x
         local food_startY = food_entity:get_transform().position.y
@@ -99,7 +100,7 @@ function seat_customer(my_table)
         interact_func = function(player)
             interact_func = wait_food
             player:get_scripts():get_script_env("player_food.lua").add_order()
-            find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
+            find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_wait.png")
             bounce()
         end
     end)
