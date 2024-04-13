@@ -1,5 +1,15 @@
+enabled = true
+delay = 10.0
+
 function start()
-    spawn()
+    routine.create(function()
+        while enabled do
+            spawn()
+            routine.wait_seconds(delay)
+            delay = delay * 0.95
+            info("new customer! " .. tostring(delay))
+        end
+    end)
 end
 
 function update()
