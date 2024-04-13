@@ -4,8 +4,13 @@ height = 16
 
 local time = 0
 
-function show()
+function show(texture_name)
+    if texture_name == nil then
+        texture_name = "sprites/ui_attention.png"
+    end
+
     entity:get_ui_element().enabled = true
+    entity:get_ui_image().image = texture.new(texture_name)
 end
 
 function hide()

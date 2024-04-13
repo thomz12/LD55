@@ -2,7 +2,7 @@
     "value0": {
         "cereal_class_version": 0,
         "value0": 15,
-        "value1": 12,
+        "value1": 14,
         "value2": 0,
         "value3": 1,
         "value4": 1048578,
@@ -18,7 +18,7 @@
         "value14": 1048590,
         "value15": 5242889,
         "value16": 1048588,
-        "value17": 12,
+        "value17": 14,
         "value18": 0,
         "value19": {
             "cereal_class_version": 0,
@@ -68,107 +68,131 @@
         "value41": {
             "name": "kitchen"
         },
-        "value42": 12,
-        "value43": 0,
-        "value44": {
+        "value42": 1048590,
+        "value43": {
+            "name": "table"
+        },
+        "value44": 5242889,
+        "value45": {
+            "name": "img_table_attention"
+        },
+        "value46": 14,
+        "value47": 0,
+        "value48": {
             "cereal_class_version": 0,
-            "children": 7,
+            "children": 8,
             "first": 1,
             "parent": 4294967295,
             "next": 0,
             "prev": 0
         },
-        "value45": 1,
-        "value46": {
+        "value49": 1,
+        "value50": {
             "children": 2,
             "first": 8,
             "parent": 0,
             "next": 1048578,
-            "prev": 2097156
+            "prev": 1048590
         },
-        "value47": 1048578,
-        "value48": {
+        "value51": 1048578,
+        "value52": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 3,
             "prev": 1
         },
-        "value49": 3,
-        "value50": {
+        "value53": 3,
+        "value54": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 5,
             "prev": 1048578
         },
-        "value51": 6,
-        "value52": {
+        "value55": 6,
+        "value56": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
             "next": 8,
             "prev": 8
         },
-        "value53": 5,
-        "value54": {
+        "value57": 5,
+        "value58": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 2097159,
             "prev": 3
         },
-        "value55": 2097156,
-        "value56": {
+        "value59": 2097156,
+        "value60": {
             "children": 1,
             "first": 1048587,
             "parent": 0,
-            "next": 1,
+            "next": 1048590,
             "prev": 1048589
         },
-        "value57": 8,
-        "value58": {
+        "value61": 8,
+        "value62": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
             "next": 6,
             "prev": 6
         },
-        "value59": 2097159,
-        "value60": {
+        "value63": 2097159,
+        "value64": {
             "children": 1,
             "first": 10,
             "parent": 0,
             "next": 1048589,
             "prev": 5
         },
-        "value61": 10,
-        "value62": {
+        "value65": 10,
+        "value66": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097159,
             "next": 10,
             "prev": 10
         },
-        "value63": 1048587,
-        "value64": {
+        "value67": 1048587,
+        "value68": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097156,
             "next": 1048587,
             "prev": 1048587
         },
-        "value65": 1048589,
-        "value66": {
+        "value69": 1048589,
+        "value70": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 2097156,
             "prev": 2097159
         },
-        "value67": 7,
-        "value68": 1048578,
-        "value69": {
+        "value71": 1048590,
+        "value72": {
+            "children": 1,
+            "first": 5242889,
+            "parent": 0,
+            "next": 1,
+            "prev": 2097156
+        },
+        "value73": 5242889,
+        "value74": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1048590,
+            "next": 5242889,
+            "prev": 5242889
+        },
+        "value75": 8,
+        "value76": 1048578,
+        "value77": {
             "cereal_class_version": 0,
             "position": {
                 "cereal_class_version": 0,
@@ -183,8 +207,8 @@
                 "y": 1.0
             }
         },
-        "value70": 5,
-        "value71": {
+        "value78": 5,
+        "value79": {
             "position": {
                 "x": 0.0,
                 "y": 0.0,
@@ -196,8 +220,8 @@
                 "y": 1.0
             }
         },
-        "value72": 2097156,
-        "value73": {
+        "value80": 2097156,
+        "value81": {
             "position": {
                 "x": 177.0,
                 "y": 113.0,
@@ -209,12 +233,12 @@
                 "y": 1.0
             }
         },
-        "value74": 1,
-        "value75": {
+        "value82": 1048590,
+        "value83": {
             "position": {
-                "x": 248.0,
-                "y": 100.0,
-                "z": 0.0
+                "x": 215.0,
+                "y": 59.0,
+                "z": -2.0
             },
             "rotation": 0.0,
             "scale": {
@@ -222,8 +246,8 @@
                 "y": 1.0
             }
         },
-        "value76": 3,
-        "value77": {
+        "value84": 3,
+        "value85": {
             "position": {
                 "x": 0.0,
                 "y": 0.0,
@@ -235,10 +259,10 @@
                 "y": 1.0
             }
         },
-        "value78": 2097159,
-        "value79": {
+        "value86": 2097159,
+        "value87": {
             "position": {
-                "x": 90.0,
+                "x": 137.0,
                 "y": 90.0,
                 "z": 0.0
             },
@@ -248,10 +272,10 @@
                 "y": 1.0
             }
         },
-        "value80": 1048589,
-        "value81": {
+        "value88": 1048589,
+        "value89": {
             "position": {
-                "x": 327.0,
+                "x": 238.0,
                 "y": 161.0,
                 "z": 0.0
             },
@@ -261,9 +285,22 @@
                 "y": 1.0
             }
         },
-        "value82": 3,
-        "value83": 1048578,
-        "value84": {
+        "value90": 1,
+        "value91": {
+            "position": {
+                "x": 248.0,
+                "y": 100.0,
+                "z": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            }
+        },
+        "value92": 4,
+        "value93": 1048578,
+        "value94": {
             "cereal_class_version": 0,
             "offset": {
                 "x": 0.0,
@@ -289,8 +326,8 @@
                 "y": 0.0
             }
         },
-        "value85": 5,
-        "value86": {
+        "value95": 5,
+        "value96": {
             "offset": {
                 "x": 150.0,
                 "y": 0.0
@@ -313,8 +350,8 @@
                 "y": 0.0
             }
         },
-        "value87": 2097156,
-        "value88": {
+        "value97": 2097156,
+        "value98": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -337,9 +374,33 @@
                 "y": 0.0
             }
         },
-        "value89": 1,
-        "value90": 1,
-        "value91": {
+        "value99": 1048590,
+        "value100": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "texture": {
+                "path": "sprites/table.png"
+            },
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "origin": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        "value101": 1,
+        "value102": 1,
+        "value103": {
             "cereal_class_version": 0,
             "zoom": 3.0,
             "clear": true,
@@ -355,9 +416,9 @@
             "nearPlane": 0.0,
             "farPlane": 100.0
         },
-        "value92": 4,
-        "value93": 1048578,
-        "value94": {
+        "value104": 5,
+        "value105": 1048578,
+        "value106": {
             "cereal_class_version": 0,
             "gravityScale": 0.0,
             "staticBody": false,
@@ -398,8 +459,8 @@
             ],
             "circles": []
         },
-        "value95": 3,
-        "value96": {
+        "value107": 3,
+        "value108": {
             "gravityScale": 1.0,
             "staticBody": true,
             "fixRotation": false,
@@ -465,7 +526,7 @@
                         "density": 1.0,
                         "angle": 0.0,
                         "offset": {
-                            "x": 71.0,
+                            "x": 120.0,
                             "y": 96.0
                         },
                         "isSensor": false,
@@ -479,7 +540,7 @@
                     "density": 1.0,
                     "angle": 0.0,
                     "offset": {
-                        "x": 71.0,
+                        "x": 120.0,
                         "y": 96.0
                     },
                     "isSensor": false,
@@ -491,7 +552,7 @@
                         "density": 1.0,
                         "angle": 0.0,
                         "offset": {
-                            "x": 424.0,
+                            "x": 376.0,
                             "y": 97.0
                         },
                         "isSensor": false,
@@ -505,7 +566,7 @@
                     "density": 1.0,
                     "angle": 0.0,
                     "offset": {
-                        "x": 424.0,
+                        "x": 376.0,
                         "y": 97.0
                     },
                     "isSensor": false,
@@ -515,8 +576,8 @@
             ],
             "circles": []
         },
-        "value97": 2097156,
-        "value98": {
+        "value109": 2097156,
+        "value110": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -580,8 +641,8 @@
             ],
             "circles": []
         },
-        "value99": 1048589,
-        "value100": {
+        "value111": 1048589,
+        "value112": {
             "gravityScale": 1.0,
             "staticBody": true,
             "fixRotation": false,
@@ -603,8 +664,8 @@
                         "restitution": 0.10000000149011612
                     },
                     "size": {
-                        "x": 37.0,
-                        "y": 34.0
+                        "x": 74.0,
+                        "y": 25.0
                     },
                     "density": 1.0,
                     "angle": 0.0,
@@ -619,10 +680,75 @@
             ],
             "circles": []
         },
-        "value101": 0,
-        "value102": 1,
-        "value103": 3,
-        "value104": {
+        "value113": 1048590,
+        "value114": {
+            "gravityScale": 0.0,
+            "staticBody": true,
+            "fixRotation": false,
+            "linearDamping": 0.0,
+            "angularDamping": 0.0,
+            "allowSleep": true,
+            "projectile": false,
+            "boxes": [
+                {
+                    "value0": {
+                        "density": 1.0,
+                        "angle": 0.0,
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isSensor": false,
+                        "friction": 0.5,
+                        "restitution": 0.10000000149011612
+                    },
+                    "size": {
+                        "x": 14.0,
+                        "y": 16.0
+                    },
+                    "density": 1.0,
+                    "angle": 0.0,
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "isSensor": false,
+                    "friction": 0.5,
+                    "restitution": 0.10000000149011612
+                },
+                {
+                    "value0": {
+                        "density": 1.0,
+                        "angle": 0.0,
+                        "offset": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "isSensor": true,
+                        "friction": 0.5,
+                        "restitution": 0.10000000149011612
+                    },
+                    "size": {
+                        "x": 28.0,
+                        "y": 28.0
+                    },
+                    "density": 1.0,
+                    "angle": 0.0,
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "isSensor": true,
+                    "friction": 0.5,
+                    "restitution": 0.10000000149011612
+                }
+            ],
+            "circles": []
+        },
+        "value115": 0,
+        "value116": 1,
+        "value117": 3,
+        "value118": {
             "cereal_class_version": 0,
             "mapWidth": 32,
             "mapHeight": 32,
@@ -641,13 +767,10 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
                 5,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
                 6,
                 6,
                 6,
@@ -673,12 +796,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -705,12 +828,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -737,12 +860,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -769,12 +892,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -801,12 +924,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -833,12 +956,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -865,12 +988,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -897,12 +1020,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -929,12 +1052,12 @@
                 0,
                 0,
                 0,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 1,
                 1,
                 1,
@@ -961,22 +1084,22 @@
                 0,
                 0,
                 0,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 2,
                 2,
                 2,
                 2,
                 10,
+                11,
+                12,
+                12,
+                13,
+                2,
                 2,
                 2,
                 2,
@@ -993,32 +1116,6 @@
                 0,
                 0,
                 0,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                8,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0,
@@ -1040,12 +1137,41 @@
                 4,
                 4,
                 4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -1662,9 +1788,9 @@
                 0
             ]
         },
-        "value105": 8,
-        "value106": 1048578,
-        "value107": {
+        "value119": 10,
+        "value120": 1048578,
+        "value121": {
             "cereal_class_version": 0,
             "scripts": [
                 {
@@ -1706,8 +1832,8 @@
                 }
             ]
         },
-        "value108": 6,
-        "value109": {
+        "value122": 6,
+        "value123": {
             "scripts": [
                 {
                     "script": {
@@ -1719,8 +1845,8 @@
                 }
             ]
         },
-        "value110": 5,
-        "value111": {
+        "value124": 5,
+        "value125": {
             "scripts": [
                 {
                     "script": {
@@ -1738,8 +1864,8 @@
                 }
             ]
         },
-        "value112": 0,
-        "value113": {
+        "value126": 0,
+        "value127": {
             "scripts": [
                 {
                     "script": {
@@ -1751,8 +1877,8 @@
                 }
             ]
         },
-        "value114": 2097156,
-        "value115": {
+        "value128": 2097156,
+        "value129": {
             "scripts": [
                 {
                     "script": {
@@ -1764,8 +1890,8 @@
                 }
             ]
         },
-        "value116": 2097159,
-        "value117": {
+        "value130": 2097159,
+        "value131": {
             "scripts": [
                 {
                     "script": {
@@ -1777,8 +1903,8 @@
                 }
             ]
         },
-        "value118": 10,
-        "value119": {
+        "value132": 10,
+        "value133": {
             "scripts": [
                 {
                     "script": {
@@ -1806,8 +1932,8 @@
                 }
             ]
         },
-        "value120": 1048587,
-        "value121": {
+        "value134": 1048587,
+        "value135": {
             "scripts": [
                 {
                     "script": {
@@ -1835,17 +1961,59 @@
                 }
             ]
         },
-        "value122": 8,
-        "value123": 1,
-        "value124": {
+        "value136": 1048590,
+        "value137": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/table.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value138": 5242889,
+        "value139": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/ui/ui_popup.lua"
+                    },
+                    "data": {
+                        "value0": [
+                            {
+                                "value0": "sizeX",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "sizeY",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "height",
+                                "value1": 3,
+                                "value2": 17.0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "value140": 10,
+        "value141": 1,
+        "value142": {
             "cereal_class_version": 1,
             "offset": {
                 "x": 0.0,
                 "y": 0.0
             },
             "dimensions": {
-                "x": 1148.0,
-                "y": 715.0
+                "x": 2028.0,
+                "y": 1056.0
             },
             "parentScale": {
                 "x": 0.0,
@@ -1862,8 +2030,8 @@
             },
             "enabled": true
         },
-        "value125": 6,
-        "value126": {
+        "value143": 6,
+        "value144": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -1887,8 +2055,8 @@
             },
             "enabled": true
         },
-        "value127": 8,
-        "value128": {
+        "value145": 8,
+        "value146": {
             "offset": {
                 "x": 4.0,
                 "y": 0.0
@@ -1912,8 +2080,8 @@
             },
             "enabled": true
         },
-        "value129": 1048578,
-        "value130": {
+        "value147": 1048578,
+        "value148": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -1937,8 +2105,8 @@
             },
             "enabled": true
         },
-        "value131": 2097159,
-        "value132": {
+        "value149": 2097159,
+        "value150": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -1962,8 +2130,8 @@
             },
             "enabled": true
         },
-        "value133": 10,
-        "value134": {
+        "value151": 10,
+        "value152": {
             "offset": {
                 "x": 0.0,
                 "y": 20.0
@@ -1987,8 +2155,8 @@
             },
             "enabled": false
         },
-        "value135": 2097156,
-        "value136": {
+        "value153": 2097156,
+        "value154": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -2012,8 +2180,8 @@
             },
             "enabled": true
         },
-        "value137": 1048587,
-        "value138": {
+        "value155": 1048587,
+        "value156": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -2037,27 +2205,81 @@
             },
             "enabled": false
         },
-        "value139": 4,
-        "value140": 1,
-        "value141": {
+        "value157": 1048590,
+        "value158": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value159": 5242889,
+        "value160": {
+            "offset": {
+                "x": 0.0,
+                "y": 17.0
+            },
+            "dimensions": {
+                "x": 16.0,
+                "y": 16.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": false
+        },
+        "value161": 5,
+        "value162": 1,
+        "value163": {
             "cereal_class_version": 0,
             "scale": 1.0
         },
-        "value142": 1048578,
-        "value143": {
+        "value164": 1048578,
+        "value165": {
             "scale": 1.0
         },
-        "value144": 2097159,
-        "value145": {
+        "value166": 2097159,
+        "value167": {
             "scale": 1.0
         },
-        "value146": 2097156,
-        "value147": {
+        "value168": 2097156,
+        "value169": {
             "scale": 1.0
         },
-        "value148": 1,
-        "value149": 6,
-        "value150": {
+        "value170": 1048590,
+        "value171": {
+            "scale": 1.0
+        },
+        "value172": 1,
+        "value173": 6,
+        "value174": {
             "cereal_class_version": 0,
             "color": {
                 "r": 0.0,
@@ -2066,9 +2288,9 @@
                 "a": 0.0
             }
         },
-        "value151": 1,
-        "value152": 8,
-        "value153": {
+        "value175": 1,
+        "value176": 8,
+        "value177": {
             "cereal_class_version": 0,
             "text": "Created by Thom Zeilstra in 48 hours for Ludum Dare 55",
             "vertical": 0,
@@ -2086,9 +2308,9 @@
             },
             "wrapText": true
         },
-        "value154": 2,
-        "value155": 10,
-        "value156": {
+        "value178": 3,
+        "value179": 10,
+        "value180": {
             "cereal_class_version": 0,
             "image": {
                 "path": "sprites/ui_attention.png"
@@ -2100,8 +2322,8 @@
                 "a": 1.0
             }
         },
-        "value157": 1048587,
-        "value158": {
+        "value181": 1048587,
+        "value182": {
             "image": {
                 "path": "sprites/ui_attention.png"
             },
@@ -2112,6 +2334,18 @@
                 "a": 1.0
             }
         },
-        "value159": 0
+        "value183": 5242889,
+        "value184": {
+            "image": {
+                "path": "sprites/ui_attention.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value185": 0
     }
 }

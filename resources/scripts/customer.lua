@@ -57,7 +57,6 @@ function update(delta_time)
 end
 
 function wait_payment(player)
-    info("Payment!")
     table:get_scripts():get_script_env("table.lua").customer = nil
     find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
     interact_func = nil
@@ -82,7 +81,7 @@ function seat_customer(my_table)
     routine.create(function()
         routine.wait_seconds(4.0)
         bounce()
-        find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show()
+        find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_order.png")
         interact_func = function(player)
             interact_func = wait_food
             player:get_scripts():get_script_env("player_food.lua").add_order()
