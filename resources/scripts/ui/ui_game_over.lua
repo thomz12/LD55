@@ -1,5 +1,19 @@
 function show()
     if not entity:get_ui_element().enabled then
+
+        local score = find_entity("text_score"):get_scripts():get_script_env("ui_score.lua").get_score()
+        find_child_by_name(entity, "txt_score"):get_ui_text().text = "Score: " .. tostring(score)
+        find_child_by_name(entity, "txt_score_1"):get_ui_text().text = "Score: " .. tostring(score)
+        local highscore = load_string("really_not_the_highscore_that_you_can_easily_cheat")
+        if highscore == "" then
+            highscore = "0"
+        end
+        if score > tonumber(highscore) then
+            save_string("really_not_the_highscore_that_you_can_easily_cheat", tostring(score))
+            highscore = score
+        end
+        find_child_by_name(entity, "txt_high_score"):get_ui_text().text = "Highscore: " .. tostring(highscore)
+        find_child_by_name(entity, "txt_high_score_1"):get_ui_text().text = "Highscore: " .. tostring(highscore)
         routine.create(function()
             routine.wait_seconds_func(0.5, function(x)
                 entity:get_ui_element().enabled = true

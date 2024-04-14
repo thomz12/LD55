@@ -212,7 +212,7 @@
         },
         "value132": 38,
         "value133": {
-            "name": "txt_score"
+            "name": "txt_score_1"
         },
         "value134": 39,
         "value135": {
@@ -220,7 +220,7 @@
         },
         "value136": 40,
         "value137": {
-            "name": "txt_high_score"
+            "name": "txt_high_score_1"
         },
         "value138": 48,
         "value139": {
@@ -252,11 +252,11 @@
         },
         "value152": 1048617,
         "value153": {
-            "name": "txt_high_score"
+            "name": "txt_continue"
         },
         "value154": 1048619,
         "value155": {
-            "name": "txt_high_score"
+            "name": "txt_continue"
         },
         "value156": 1048618,
         "value157": {

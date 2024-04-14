@@ -50,6 +50,14 @@ function update(delta_time)
             if current_wait_time / max_wait_time >= 1.0 then
                 manager.game_over(waiting_customers[1])
             end
+        else
+            current_wait_time = current_wait_time - delta_time
+            local progress_env = find_child_by_name(entity, "img_progress_back"):get_scripts():get_script_env("ui_progress.lua")
+            if current_wait_time <= 0.0 then
+                current_wait_time = 0.0
+                progress_env.hide()
+            end
+            progress_env.set_percentage(current_wait_time / max_wait_time)
         end
     end
 end
