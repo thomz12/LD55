@@ -11,7 +11,17 @@ local frame_timer = 0.0
 local tutorial_timer = 0.0
 local tutorial_triggered = false
 
+local manager
+
+function start()
+    manager = find_entity("root"):get_scripts():get_script_env("game_manager.lua")
+end
+
 function update(delta_time)
+    if manager.is_game_over() then
+        entity:get_physics():set_velocity(vector2.new(0, 0))
+        return
+    end
     -- get components
     local transform = entity:get_transform()
     local sprite = entity:get_sprite()

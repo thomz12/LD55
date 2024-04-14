@@ -3,15 +3,23 @@ min_delay = 2.0
 
 local waiting = 0
 local waiting_customers = {}
+local manager
 
 local enabled = false
 
 double_chance = 0.1
+max_waiting_customers = 3
+max_wait_time = 15
+local current_wait_time = 0.0
+
+function start()
+    manager = find_entity("root"):get_scripts():get_script_env("game_manager.lua")
+end
 
 function start_spawning()
     enabled = true
     routine.create(function()
-        while enabled do
+        while enabled and not manager.is_game_over() do
             spawn()
             if math.random() < double_chance then
                 spawn()
@@ -29,6 +37,21 @@ end
 
 function is_spawning()
     return enabled
+end
+
+function update(delta_time)
+    if not manager.is_game_over() then
+        if waiting >= max_waiting_customers then
+            current_wait_time = current_wait_time + delta_time
+            local progress_env = find_child_by_name(entity, "img_progress_back"):get_scripts():get_script_env("ui_progress.lua")
+            progress_env.set_percentage(current_wait_time / max_wait_time)
+            progress_env.show()
+
+            if current_wait_time / max_wait_time >= 1.0 then
+                manager.game_over(waiting_customers[1])
+            end
+        end
+    end
 end
 
 function spawn()

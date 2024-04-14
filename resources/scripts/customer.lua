@@ -11,6 +11,7 @@ local interact_func = nil
 local table = nil
 local entry_pos = nil
 local delta
+local manager
 
 -- customer states:
 -- 0: wait to be seated (needs player)
@@ -23,6 +24,7 @@ local delta
 -- 7: leaving
 
 function start()
+    manager = find_entity("root"):get_scripts():get_script_env("game_manager.lua")
     entity:get_sprite().origin = vector2.new(0, 16 * math.random(1, 3))
     interact_func = wait_interact
     entry_pos = vector2.new(90, 90)
@@ -54,12 +56,37 @@ function move_towards(position, duration, on_arrive)
     end)
 end
 
+function die(on_death)
+    routine.create(function()
+        local xpos = entity:get_transform().position.x
+        local ypos = entity:get_transform().position.y
+        routine.wait_seconds_func(2.5, function(x)
+            entity:get_transform().position.x = xpos + (math.random() - 0.5) * 2
+            entity:get_transform().position.y = ypos + (math.random() - 0.5) * 2
+            entity:update_transform()
+        end)
+        routine.wait_seconds(0.5)
+        routine.wait_seconds_func(0.5, function(x)
+            entity:get_transform().rotation = x * 90
+            entity:get_transform().position.y = ypos - x * 5
+            entity:update_transform()
+        end)
+        on_death()
+    end)
+end
+
 function update(delta_time)
+    if manager.is_game_over() then return end
     if waiting then
         patience = patience + delta_time
         if table ~= nil then
             local progress_bar_env = find_child_by_name(table, "img_progress_back"):get_scripts():get_script_env("ui_progress.lua")
-            progress_bar_env.set_percentage(patience/max_patience)
+            progress_bar_env.set_percentage(patience / max_patience)
+
+            if patience / max_patience > 1.0 then
+                find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
+                manager.game_over(entity)
+            end
         end
     end
     delta = delta_time
@@ -113,9 +140,6 @@ function wait_payment(player)
     interact_func = nil
     entity:get_transform().scale.x = -1
     set_wait(false)
-    -- find_entity("camera"):get_scripts():get_script_env("camera.lua").zoom_in(
-    --     vector2.new(entity:get_transform().position.x, entity:get_transform().position.y), 1.0, 0.5)
-
     routine.create(function()
         routine.wait_seconds(3.0)
         routine.wait_seconds_func(1.0, function(x)

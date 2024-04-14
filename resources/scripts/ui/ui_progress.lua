@@ -16,5 +16,8 @@ function hide()
 end
 
 function set_percentage(percentage)
+    if percentage > 1.0 then
+        percentage = 1.0
+    end
     bar:get_ui_element().dimensions.x = lerp(minWidth, maxWidth, percentage)
 end
