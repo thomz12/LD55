@@ -13,12 +13,9 @@ function start_spawning()
     routine.create(function()
         while enabled do
             spawn()
-            local number = math.random()
-            info(tostring(number))
-            if number < double_chance then
+            if math.random() < double_chance then
                 spawn()
             end
-
             routine.wait_seconds(delay)
             delay = delay * 0.95
             if (delay < min_delay) then delay = min_delay end
