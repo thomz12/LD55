@@ -1,8 +1,8 @@
 {
     "value0": {
         "cereal_class_version": 0,
-        "name": "Ludum Dare 55",
-        "author": "Juicebox",
+        "name": "Patty Panic",
+        "author": "Thom Zeilstra",
         "engineVersion": "0.1.0",
         "version": "1.0.0",
         "startScene": "scenes/splash.jbscene"

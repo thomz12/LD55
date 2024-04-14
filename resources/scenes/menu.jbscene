@@ -1,0 +1,481 @@
+{
+    "value0": {
+        "cereal_class_version": 0,
+        "value0": 8,
+        "value1": 8,
+        "value2": 0,
+        "value3": 1,
+        "value4": 2,
+        "value5": 3,
+        "value6": 4,
+        "value7": 5,
+        "value8": 6,
+        "value9": 7,
+        "value10": 8,
+        "value11": 0,
+        "value12": {
+            "cereal_class_version": 0,
+            "name": "root"
+        },
+        "value13": 1,
+        "value14": {
+            "name": "camera"
+        },
+        "value15": 2,
+        "value16": {
+            "name": "entity"
+        },
+        "value17": 3,
+        "value18": {
+            "name": "text"
+        },
+        "value19": 4,
+        "value20": {
+            "name": "text"
+        },
+        "value21": 5,
+        "value22": {
+            "name": "background"
+        },
+        "value23": 6,
+        "value24": {
+            "name": "made_by"
+        },
+        "value25": 7,
+        "value26": {
+            "name": "fade"
+        },
+        "value27": 8,
+        "value28": 0,
+        "value29": {
+            "cereal_class_version": 0,
+            "children": 2,
+            "first": 1,
+            "parent": 4294967295,
+            "next": 0,
+            "prev": 0
+        },
+        "value30": 1,
+        "value31": {
+            "children": 4,
+            "first": 2,
+            "parent": 0,
+            "next": 5,
+            "prev": 5
+        },
+        "value32": 2,
+        "value33": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1,
+            "next": 3,
+            "prev": 7
+        },
+        "value34": 3,
+        "value35": {
+            "children": 1,
+            "first": 4,
+            "parent": 1,
+            "next": 6,
+            "prev": 2
+        },
+        "value36": 4,
+        "value37": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 3,
+            "next": 4,
+            "prev": 4
+        },
+        "value38": 5,
+        "value39": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 0,
+            "next": 1,
+            "prev": 1
+        },
+        "value40": 6,
+        "value41": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1,
+            "next": 7,
+            "prev": 3
+        },
+        "value42": 7,
+        "value43": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1,
+            "next": 2,
+            "prev": 6
+        },
+        "value44": 2,
+        "value45": 5,
+        "value46": {
+            "cereal_class_version": 0,
+            "position": {
+                "cereal_class_version": 0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": 8.0,
+            "scale": {
+                "cereal_class_version": 0,
+                "x": 1.0,
+                "y": 1.0
+            }
+        },
+        "value47": 1,
+        "value48": {
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            }
+        },
+        "value49": 1,
+        "value50": 5,
+        "value51": {
+            "cereal_class_version": 0,
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "color": {
+                "cereal_class_version": 0,
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 0.3294117748737335
+            },
+            "texture": {
+                "cereal_class_version": 0,
+                "path": "sprites/food.png"
+            },
+            "dimensions": {
+                "x": 100000.0,
+                "y": 100000.0
+            },
+            "origin": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        "value52": 1,
+        "value53": 1,
+        "value54": {
+            "cereal_class_version": 0,
+            "zoom": 4.0,
+            "clear": true,
+            "clearColor": {
+                "r": 0.8691983222961426,
+                "g": 0.3410778343677521,
+                "b": 0.3410778343677521,
+                "a": 1.0
+            },
+            "width": 0,
+            "height": 0,
+            "useDepthStencil": true,
+            "nearPlane": 0.0,
+            "farPlane": 100.0
+        },
+        "value55": 0,
+        "value56": 0,
+        "value57": 0,
+        "value58": 3,
+        "value59": 2,
+        "value60": {
+            "cereal_class_version": 0,
+            "scripts": [
+                {
+                    "cereal_class_version": 0,
+                    "script": {
+                        "cereal_class_version": 0,
+                        "path": "scripts/ui/ui_logo.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value61": 5,
+        "value62": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/main_menu.lua"
+                    },
+                    "data": {
+                        "value0": [
+                            {
+                                "value0": "scroll_speed",
+                                "value1": 3,
+                                "value2": 16.0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "value63": 7,
+        "value64": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/ui/ui_panel.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value65": 6,
+        "value66": 1,
+        "value67": {
+            "cereal_class_version": 1,
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 467.75,
+                "y": 239.5
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value68": 2,
+        "value69": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 128.0,
+                "y": 64.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.6499999761581421
+            },
+            "enabled": true
+        },
+        "value70": 3,
+        "value71": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.25
+            },
+            "enabled": true
+        },
+        "value72": 4,
+        "value73": {
+            "offset": {
+                "x": -1.0,
+                "y": 1.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value74": 6,
+        "value75": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 8.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "enabled": true
+        },
+        "value76": 7,
+        "value77": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "parentScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value78": 1,
+        "value79": 1,
+        "value80": {
+            "cereal_class_version": 0,
+            "scale": 4.0
+        },
+        "value81": 1,
+        "value82": 7,
+        "value83": {
+            "cereal_class_version": 0,
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            }
+        },
+        "value84": 3,
+        "value85": 3,
+        "value86": {
+            "cereal_class_version": 0,
+            "text": "Press space to start",
+            "vertical": 1,
+            "horizontal": 1,
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "fontSize": 12.0,
+            "font": {
+                "cereal_class_version": 0,
+                "path": "fonts/aldo_the_apache.ttf"
+            },
+            "wrapText": false
+        },
+        "value87": 4,
+        "value88": {
+            "text": "Press space to start",
+            "vertical": 1,
+            "horizontal": 1,
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "fontSize": 12.0,
+            "font": {
+                "path": "fonts/aldo_the_apache.ttf"
+            },
+            "wrapText": false
+        },
+        "value89": 6,
+        "value90": {
+            "text": "Created by Thom Zeilstra in 48 hours for Ludum Dare 55",
+            "vertical": 1,
+            "horizontal": 1,
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "fontSize": 5.0,
+            "font": {
+                "path": "fonts/aldo_the_apache.ttf"
+            },
+            "wrapText": false
+        },
+        "value91": 1,
+        "value92": 2,
+        "value93": {
+            "cereal_class_version": 0,
+            "image": {
+                "path": "sprites/ui_logo.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value94": 0
+    }
+}

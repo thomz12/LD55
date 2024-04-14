@@ -30,7 +30,7 @@ function update()
         if not loading and is_key_held("space") then
             loading = true
             find_entity("panel_fade"):get_scripts():get_script_env("ui_panel.lua").fade_out(1.0, function()
-                load_scene("scenes/main.jbscene")
+                load_scene("scenes/menu.jbscene")
             end)
         end
     end

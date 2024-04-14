@@ -8,7 +8,7 @@ function start()
         routine.wait_seconds(1.0)
         -- Fade out and load main scene.
         find_entity("panel_fade"):get_scripts():get_script_env("ui_panel.lua").fade_out(0.5, function() 
-            load_scene("scenes/main.jbscene")
+            load_scene("scenes/menu.jbscene")
         end)
     end)
     routine.create(function()
