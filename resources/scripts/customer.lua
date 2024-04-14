@@ -139,6 +139,7 @@ function wait_payment(player)
     find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
     interact_func = nil
     find_entity("sound_money"):get_audio():play()
+    add_score("Accept Payment", 200)
     entity:get_transform().scale.x = -1
     set_wait(false)
     routine.create(function()
@@ -163,6 +164,7 @@ function wait_food(player)
         local food_startX = food_entity:get_transform().position.x
         local food_startY = food_entity:get_transform().position.y
         find_entity("sound_throw"):get_audio():play()
+        add_score("Deliver Order", 100)
         routine.create(function()
             routine.wait_seconds_func(1.0, function(x)
                 local food_trans = food_entity:get_transform()
@@ -185,15 +187,21 @@ function wait_food(player)
     end
 end
 
+function add_score(desc, score)
+    find_entity("player"):get_scripts():get_script_env("player_score.lua").add_score(desc, score)
+end
+
 function seat_customer(my_table)
     table = my_table
     find_entity("sound_follow"):get_audio():play()
+    add_score("Seat Customer", 100)
     routine.create(function()
         routine.wait_seconds(2.0)
         bounce()
         set_wait(true)
         find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_order.png")
         interact_func = function(player)
+            add_score("Take Order", 100)
             find_entity("sound_write"):get_audio():play()
             interact_func = wait_food
             player:get_scripts():get_script_env("player_food.lua").add_order()

@@ -1,8 +1,8 @@
 {
     "value0": {
         "cereal_class_version": 0,
-        "value0": 51,
-        "value1": 51,
+        "value0": 53,
+        "value1": 53,
         "value2": 0,
         "value3": 1,
         "value4": 1048578,
@@ -44,635 +44,661 @@
         "value40": 38,
         "value41": 39,
         "value42": 40,
-        "value43": 41,
-        "value44": 42,
-        "value45": 43,
+        "value43": 48,
+        "value44": 50,
+        "value45": 49,
         "value46": 44,
         "value47": 45,
         "value48": 46,
         "value49": 47,
-        "value50": 48,
-        "value51": 49,
-        "value52": 50,
-        "value53": 51,
-        "value54": 0,
-        "value55": {
+        "value50": 1048617,
+        "value51": 1048619,
+        "value52": 1048618,
+        "value53": 1048627,
+        "value54": 52,
+        "value55": 53,
+        "value56": 0,
+        "value57": {
             "cereal_class_version": 0,
             "name": "root"
         },
-        "value56": 1,
-        "value57": {
+        "value58": 1,
+        "value59": {
             "name": "camera"
         },
-        "value58": 1048578,
-        "value59": {
+        "value60": 1048578,
+        "value61": {
             "name": "player"
         },
-        "value60": 3,
-        "value61": {
+        "value62": 3,
+        "value63": {
             "name": "tilemap"
         },
-        "value62": 6,
-        "value63": {
+        "value64": 6,
+        "value65": {
             "name": "panel_fade"
         },
-        "value64": 5,
-        "value65": {
+        "value66": 5,
+        "value67": {
             "name": "background"
         },
-        "value66": 2097156,
-        "value67": {
+        "value68": 2097156,
+        "value69": {
             "name": "table"
         },
-        "value68": 8,
-        "value69": {
+        "value70": 8,
+        "value71": {
             "name": "text_created_by"
         },
-        "value70": 2097159,
-        "value71": {
+        "value72": 2097159,
+        "value73": {
             "name": "customer_spawner"
         },
-        "value72": 10,
-        "value73": {
+        "value74": 10,
+        "value75": {
             "name": "img_entry_attention"
         },
-        "value74": 1048587,
-        "value75": {
+        "value76": 1048587,
+        "value77": {
             "name": "img_table_attention"
         },
-        "value76": 1048589,
-        "value77": {
+        "value78": 1048589,
+        "value79": {
             "name": "kitchen"
         },
-        "value78": 2097177,
-        "value79": {
+        "value80": 2097177,
+        "value81": {
             "name": "img_progress_back"
         },
-        "value80": 26,
-        "value81": {
+        "value82": 26,
+        "value83": {
             "name": "img_progress_bar"
         },
-        "value82": 16,
-        "value83": {
+        "value84": 16,
+        "value85": {
             "name": "img_attention_food"
         },
-        "value84": 1048599,
-        "value85": {
-            "name": "img_progress_back"
-        },
-        "value86": 1048600,
+        "value86": 1048599,
         "value87": {
-            "name": "img_progress_bar"
+            "name": "img_progress_back"
         },
-        "value88": 1048597,
+        "value88": 1048600,
         "value89": {
-            "name": "table"
+            "name": "img_progress_bar"
         },
-        "value90": 1048598,
+        "value90": 1048597,
         "value91": {
-            "name": "img_table_attention"
+            "name": "table"
         },
-        "value92": 1048595,
+        "value92": 1048598,
         "value93": {
-            "name": "img_progress_back"
+            "name": "img_table_attention"
         },
-        "value94": 1048596,
+        "value94": 1048595,
         "value95": {
-            "name": "img_progress_bar"
+            "name": "img_progress_back"
         },
-        "value96": 1048593,
+        "value96": 1048596,
         "value97": {
-            "name": "table"
+            "name": "img_progress_bar"
         },
-        "value98": 1048594,
+        "value98": 1048593,
         "value99": {
-            "name": "img_table_attention"
+            "name": "table"
         },
-        "value100": 2097164,
+        "value100": 1048594,
         "value101": {
-            "name": "img_progress_back"
+            "name": "img_table_attention"
         },
-        "value102": 1048591,
+        "value102": 2097164,
         "value103": {
-            "name": "img_progress_bar"
+            "name": "img_progress_back"
         },
-        "value104": 2097166,
+        "value104": 1048591,
         "value105": {
-            "name": "table"
+            "name": "img_progress_bar"
         },
-        "value106": 6291465,
+        "value106": 2097166,
         "value107": {
-            "name": "img_table_attention"
-        },
-        "value108": 27,
-        "value109": {
-            "name": "img_progress_back"
-        },
-        "value110": 28,
-        "value111": {
-            "name": "img_progress_bar"
-        },
-        "value112": 29,
-        "value113": {
             "name": "table"
         },
-        "value114": 30,
-        "value115": {
+        "value108": 6291465,
+        "value109": {
             "name": "img_table_attention"
         },
-        "value116": 31,
-        "value117": {
+        "value110": 27,
+        "value111": {
             "name": "img_progress_back"
         },
-        "value118": 32,
-        "value119": {
+        "value112": 28,
+        "value113": {
             "name": "img_progress_bar"
         },
-        "value120": 33,
+        "value114": 29,
+        "value115": {
+            "name": "table"
+        },
+        "value116": 30,
+        "value117": {
+            "name": "img_table_attention"
+        },
+        "value118": 31,
+        "value119": {
+            "name": "img_progress_back"
+        },
+        "value120": 32,
         "value121": {
+            "name": "img_progress_bar"
+        },
+        "value122": 33,
+        "value123": {
             "name": "ui_game_over"
         },
-        "value122": 34,
-        "value123": {
+        "value124": 34,
+        "value125": {
             "name": "pnl_background"
         },
-        "value124": 35,
-        "value125": {
-            "name": "txt_game_over"
-        },
-        "value126": 36,
+        "value126": 35,
         "value127": {
             "name": "txt_game_over"
         },
-        "value128": 37,
+        "value128": 36,
         "value129": {
-            "name": "txt_score"
+            "name": "txt_game_over"
         },
-        "value130": 38,
+        "value130": 37,
         "value131": {
             "name": "txt_score"
         },
-        "value132": 39,
+        "value132": 38,
         "value133": {
-            "name": "txt_high_score"
+            "name": "txt_score"
         },
-        "value134": 40,
+        "value134": 39,
         "value135": {
             "name": "txt_high_score"
         },
-        "value136": 41,
+        "value136": 40,
         "value137": {
-            "name": "btn_retry"
+            "name": "txt_high_score"
         },
-        "value138": 42,
+        "value138": 48,
         "value139": {
-            "name": "txt_retry"
+            "name": "sound_money"
         },
-        "value140": 43,
+        "value140": 50,
         "value141": {
-            "name": "txt_retry"
+            "name": "sound_write"
         },
-        "value142": 44,
+        "value142": 49,
         "value143": {
-            "name": "txt_reason"
+            "name": "sound_throw"
         },
-        "value144": 45,
+        "value144": 44,
         "value145": {
             "name": "txt_reason"
         },
-        "value146": 46,
+        "value146": 45,
         "value147": {
+            "name": "txt_reason"
+        },
+        "value148": 46,
+        "value149": {
             "name": "game_over_sound"
         },
-        "value148": 47,
-        "value149": {
+        "value150": 47,
+        "value151": {
             "name": "sound_follow"
         },
-        "value150": 48,
-        "value151": {
-            "name": "sound_money"
-        },
-        "value152": 49,
+        "value152": 1048617,
         "value153": {
-            "name": "sound_throw"
+            "name": "txt_high_score"
         },
-        "value154": 50,
+        "value154": 1048619,
         "value155": {
-            "name": "sound_write"
+            "name": "txt_high_score"
         },
-        "value156": 51,
-        "value157": 0,
-        "value158": {
+        "value156": 1048618,
+        "value157": {
+            "name": "text_score"
+        },
+        "value158": 1048627,
+        "value159": {
+            "name": "text_score_1"
+        },
+        "value160": 52,
+        "value161": {
+            "name": "score_root"
+        },
+        "value162": 53,
+        "value163": 0,
+        "value164": {
             "cereal_class_version": 0,
-            "children": 12,
+            "children": 13,
             "first": 1,
             "parent": 4294967295,
             "next": 0,
             "prev": 0
         },
-        "value159": 1,
-        "value160": {
+        "value165": 1,
+        "value166": {
             "children": 3,
             "first": 33,
             "parent": 0,
             "next": 1048578,
-            "prev": 46
+            "prev": 52
         },
-        "value161": 1048578,
-        "value162": {
+        "value167": 1048578,
+        "value168": {
             "children": 4,
             "first": 47,
             "parent": 0,
             "next": 3,
             "prev": 1
         },
-        "value163": 3,
-        "value164": {
+        "value169": 3,
+        "value170": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 5,
             "prev": 1048578
         },
-        "value165": 6,
-        "value166": {
+        "value171": 6,
+        "value172": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
-            "next": 8,
-            "prev": 33
+            "next": 33,
+            "prev": 8
         },
-        "value167": 5,
-        "value168": {
+        "value173": 5,
+        "value174": {
             "children": 0,
             "first": 4294967295,
             "parent": 0,
             "next": 2097159,
             "prev": 3
         },
-        "value169": 2097156,
-        "value170": {
+        "value175": 2097156,
+        "value176": {
             "children": 2,
             "first": 1048587,
             "parent": 0,
             "next": 1048597,
             "prev": 1048589
         },
-        "value171": 8,
-        "value172": {
+        "value177": 8,
+        "value178": {
             "children": 0,
             "first": 4294967295,
             "parent": 1,
-            "next": 33,
-            "prev": 6
+            "next": 6,
+            "prev": 33
         },
-        "value173": 2097159,
-        "value174": {
+        "value179": 2097159,
+        "value180": {
             "children": 2,
             "first": 10,
             "parent": 0,
             "next": 1048589,
             "prev": 5
         },
-        "value175": 10,
-        "value176": {
+        "value181": 10,
+        "value182": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097159,
             "next": 2097177,
             "prev": 2097177
         },
-        "value177": 1048587,
-        "value178": {
+        "value183": 1048587,
+        "value184": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097156,
             "next": 1048599,
             "prev": 1048599
         },
-        "value179": 1048589,
-        "value180": {
+        "value185": 1048589,
+        "value186": {
             "children": 1,
             "first": 16,
             "parent": 0,
             "next": 2097156,
             "prev": 2097159
         },
-        "value181": 2097177,
-        "value182": {
+        "value187": 2097177,
+        "value188": {
             "children": 1,
             "first": 26,
             "parent": 2097159,
             "next": 10,
             "prev": 10
         },
-        "value183": 26,
-        "value184": {
+        "value189": 26,
+        "value190": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097177,
             "next": 26,
             "prev": 26
         },
-        "value185": 16,
-        "value186": {
+        "value191": 16,
+        "value192": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048589,
             "next": 16,
             "prev": 16
         },
-        "value187": 1048599,
-        "value188": {
+        "value193": 1048599,
+        "value194": {
             "children": 1,
             "first": 1048600,
             "parent": 2097156,
             "next": 1048587,
             "prev": 1048587
         },
-        "value189": 1048600,
-        "value190": {
+        "value195": 1048600,
+        "value196": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048599,
             "next": 1048600,
             "prev": 1048600
         },
-        "value191": 1048597,
-        "value192": {
+        "value197": 1048597,
+        "value198": {
             "children": 2,
             "first": 1048598,
             "parent": 0,
             "next": 1048593,
             "prev": 2097156
         },
-        "value193": 1048598,
-        "value194": {
+        "value199": 1048598,
+        "value200": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048597,
             "next": 1048595,
             "prev": 1048595
         },
-        "value195": 1048595,
-        "value196": {
+        "value201": 1048595,
+        "value202": {
             "children": 1,
             "first": 1048596,
             "parent": 1048597,
             "next": 1048598,
             "prev": 1048598
         },
-        "value197": 1048596,
-        "value198": {
+        "value203": 1048596,
+        "value204": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048595,
             "next": 1048596,
             "prev": 1048596
         },
-        "value199": 1048593,
-        "value200": {
+        "value205": 1048593,
+        "value206": {
             "children": 2,
             "first": 1048594,
             "parent": 0,
             "next": 2097166,
             "prev": 1048597
         },
-        "value201": 1048594,
-        "value202": {
+        "value207": 1048594,
+        "value208": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048593,
             "next": 2097164,
             "prev": 2097164
         },
-        "value203": 2097164,
-        "value204": {
+        "value209": 2097164,
+        "value210": {
             "children": 1,
             "first": 1048591,
             "parent": 1048593,
             "next": 1048594,
             "prev": 1048594
         },
-        "value205": 1048591,
-        "value206": {
+        "value211": 1048591,
+        "value212": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097164,
             "next": 1048591,
             "prev": 1048591
         },
-        "value207": 2097166,
-        "value208": {
+        "value213": 2097166,
+        "value214": {
             "children": 2,
             "first": 6291465,
             "parent": 0,
             "next": 29,
             "prev": 1048593
         },
-        "value209": 6291465,
-        "value210": {
+        "value215": 6291465,
+        "value216": {
             "children": 0,
             "first": 4294967295,
             "parent": 2097166,
             "next": 27,
             "prev": 27
         },
-        "value211": 27,
-        "value212": {
+        "value217": 27,
+        "value218": {
             "children": 1,
             "first": 28,
             "parent": 2097166,
             "next": 6291465,
             "prev": 6291465
         },
-        "value213": 28,
-        "value214": {
+        "value219": 28,
+        "value220": {
             "children": 0,
             "first": 4294967295,
             "parent": 27,
             "next": 28,
             "prev": 28
         },
-        "value215": 29,
-        "value216": {
+        "value221": 29,
+        "value222": {
             "children": 2,
             "first": 30,
             "parent": 0,
             "next": 46,
             "prev": 2097166
         },
-        "value217": 30,
-        "value218": {
+        "value223": 30,
+        "value224": {
             "children": 0,
             "first": 4294967295,
             "parent": 29,
             "next": 31,
             "prev": 31
         },
-        "value219": 31,
-        "value220": {
+        "value225": 31,
+        "value226": {
             "children": 1,
             "first": 32,
             "parent": 29,
             "next": 30,
             "prev": 30
         },
-        "value221": 32,
-        "value222": {
+        "value227": 32,
+        "value228": {
             "children": 0,
             "first": 4294967295,
             "parent": 31,
             "next": 32,
             "prev": 32
         },
-        "value223": 33,
-        "value224": {
+        "value229": 33,
+        "value230": {
             "children": 1,
             "first": 34,
             "parent": 1,
-            "next": 6,
-            "prev": 8
+            "next": 8,
+            "prev": 6
         },
-        "value225": 34,
-        "value226": {
+        "value231": 34,
+        "value232": {
             "children": 5,
             "first": 36,
             "parent": 33,
             "next": 34,
             "prev": 34
         },
-        "value227": 35,
-        "value228": {
+        "value233": 35,
+        "value234": {
             "children": 0,
             "first": 4294967295,
             "parent": 36,
             "next": 35,
             "prev": 35
         },
-        "value229": 36,
-        "value230": {
+        "value235": 36,
+        "value236": {
             "children": 1,
             "first": 35,
             "parent": 34,
             "next": 44,
-            "prev": 41
+            "prev": 1048617
         },
-        "value231": 37,
-        "value232": {
+        "value237": 37,
+        "value238": {
             "children": 1,
             "first": 38,
             "parent": 34,
             "next": 39,
             "prev": 44
         },
-        "value233": 38,
-        "value234": {
+        "value239": 38,
+        "value240": {
             "children": 0,
             "first": 4294967295,
             "parent": 37,
             "next": 38,
             "prev": 38
         },
-        "value235": 39,
-        "value236": {
+        "value241": 39,
+        "value242": {
             "children": 1,
             "first": 40,
             "parent": 34,
-            "next": 41,
+            "next": 1048617,
             "prev": 37
         },
-        "value237": 40,
-        "value238": {
+        "value243": 40,
+        "value244": {
             "children": 0,
             "first": 4294967295,
             "parent": 39,
             "next": 40,
             "prev": 40
         },
-        "value239": 41,
-        "value240": {
-            "children": 1,
-            "first": 43,
-            "parent": 34,
-            "next": 36,
-            "prev": 39
-        },
-        "value241": 42,
-        "value242": {
-            "children": 0,
-            "first": 4294967295,
-            "parent": 43,
-            "next": 42,
-            "prev": 42
-        },
-        "value243": 43,
-        "value244": {
-            "children": 1,
-            "first": 42,
-            "parent": 41,
-            "next": 43,
-            "prev": 43
-        },
-        "value245": 44,
+        "value245": 48,
         "value246": {
-            "children": 1,
-            "first": 45,
-            "parent": 34,
-            "next": 37,
-            "prev": 36
-        },
-        "value247": 45,
-        "value248": {
-            "children": 0,
-            "first": 4294967295,
-            "parent": 44,
-            "next": 45,
-            "prev": 45
-        },
-        "value249": 46,
-        "value250": {
-            "children": 0,
-            "first": 4294967295,
-            "parent": 0,
-            "next": 1,
-            "prev": 29
-        },
-        "value251": 47,
-        "value252": {
-            "children": 0,
-            "first": 4294967295,
-            "parent": 1048578,
-            "next": 48,
-            "prev": 50
-        },
-        "value253": 48,
-        "value254": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048578,
             "next": 49,
             "prev": 47
         },
-        "value255": 49,
-        "value256": {
-            "children": 0,
-            "first": 4294967295,
-            "parent": 1048578,
-            "next": 50,
-            "prev": 48
-        },
-        "value257": 50,
-        "value258": {
+        "value247": 50,
+        "value248": {
             "children": 0,
             "first": 4294967295,
             "parent": 1048578,
             "next": 47,
             "prev": 49
         },
-        "value259": 11,
-        "value260": 1048578,
-        "value261": {
+        "value249": 49,
+        "value250": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1048578,
+            "next": 50,
+            "prev": 48
+        },
+        "value251": 44,
+        "value252": {
+            "children": 1,
+            "first": 45,
+            "parent": 34,
+            "next": 37,
+            "prev": 36
+        },
+        "value253": 45,
+        "value254": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 44,
+            "next": 45,
+            "prev": 45
+        },
+        "value255": 46,
+        "value256": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 0,
+            "next": 52,
+            "prev": 29
+        },
+        "value257": 47,
+        "value258": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1048578,
+            "next": 48,
+            "prev": 50
+        },
+        "value259": 1048617,
+        "value260": {
+            "children": 1,
+            "first": 1048619,
+            "parent": 34,
+            "next": 36,
+            "prev": 39
+        },
+        "value261": 1048619,
+        "value262": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1048617,
+            "next": 1048619,
+            "prev": 1048619
+        },
+        "value263": 1048618,
+        "value264": {
+            "children": 1,
+            "first": 1048627,
+            "parent": 52,
+            "next": 1048618,
+            "prev": 1048618
+        },
+        "value265": 1048627,
+        "value266": {
+            "children": 0,
+            "first": 4294967295,
+            "parent": 1048618,
+            "next": 1048627,
+            "prev": 1048627
+        },
+        "value267": 52,
+        "value268": {
+            "children": 1,
+            "first": 1048618,
+            "parent": 0,
+            "next": 1,
+            "prev": 46
+        },
+        "value269": 12,
+        "value270": 1048578,
+        "value271": {
             "cereal_class_version": 0,
             "position": {
                 "cereal_class_version": 0,
@@ -687,8 +713,8 @@
                 "y": 1.0
             }
         },
-        "value262": 5,
-        "value263": {
+        "value272": 5,
+        "value273": {
             "position": {
                 "x": 0.0,
                 "y": 0.0,
@@ -700,8 +726,8 @@
                 "y": 1.0
             }
         },
-        "value264": 2097156,
-        "value265": {
+        "value274": 2097156,
+        "value275": {
             "position": {
                 "x": 177.0,
                 "y": 113.0,
@@ -713,8 +739,8 @@
                 "y": 1.0
             }
         },
-        "value266": 1048597,
-        "value267": {
+        "value276": 1048597,
+        "value277": {
             "position": {
                 "x": 177.0,
                 "y": 66.0,
@@ -726,10 +752,10 @@
                 "y": 1.0
             }
         },
-        "value268": 1048593,
-        "value269": {
+        "value278": 1048593,
+        "value279": {
             "position": {
-                "x": 233.0,
+                "x": 225.0,
                 "y": 92.0,
                 "z": -2.0
             },
@@ -739,8 +765,8 @@
                 "y": 1.0
             }
         },
-        "value270": 2097166,
-        "value271": {
+        "value280": 2097166,
+        "value281": {
             "position": {
                 "x": 278.0,
                 "y": 129.0,
@@ -752,8 +778,8 @@
                 "y": 1.0
             }
         },
-        "value272": 29,
-        "value273": {
+        "value282": 29,
+        "value283": {
             "position": {
                 "x": 278.0,
                 "y": 56.0,
@@ -765,8 +791,8 @@
                 "y": 1.0
             }
         },
-        "value274": 1,
-        "value275": {
+        "value284": 1,
+        "value285": {
             "position": {
                 "x": 232.0,
                 "y": 108.0,
@@ -778,8 +804,8 @@
                 "y": 1.0
             }
         },
-        "value276": 3,
-        "value277": {
+        "value286": 3,
+        "value287": {
             "position": {
                 "x": 0.0,
                 "y": 0.0,
@@ -791,8 +817,8 @@
                 "y": 1.0
             }
         },
-        "value278": 2097159,
-        "value279": {
+        "value288": 2097159,
+        "value289": {
             "position": {
                 "x": 133.0,
                 "y": 96.0,
@@ -804,8 +830,8 @@
                 "y": 1.0
             }
         },
-        "value280": 1048589,
-        "value281": {
+        "value290": 1048589,
+        "value291": {
             "position": {
                 "x": 239.0,
                 "y": 157.0,
@@ -817,9 +843,22 @@
                 "y": 1.0
             }
         },
-        "value282": 7,
-        "value283": 1048578,
-        "value284": {
+        "value292": 52,
+        "value293": {
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": 0.0,
+            "scale": {
+                "x": 1.0,
+                "y": 1.0
+            }
+        },
+        "value294": 7,
+        "value295": 1048578,
+        "value296": {
             "cereal_class_version": 0,
             "offset": {
                 "x": 0.0,
@@ -845,8 +884,8 @@
                 "y": 0.0
             }
         },
-        "value285": 5,
-        "value286": {
+        "value297": 5,
+        "value298": {
             "offset": {
                 "x": 150.0,
                 "y": 0.0
@@ -869,8 +908,8 @@
                 "y": 0.0
             }
         },
-        "value287": 2097156,
-        "value288": {
+        "value299": 2097156,
+        "value300": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -893,8 +932,8 @@
                 "y": 0.0
             }
         },
-        "value289": 1048597,
-        "value290": {
+        "value301": 1048597,
+        "value302": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -917,8 +956,8 @@
                 "y": 0.0
             }
         },
-        "value291": 1048593,
-        "value292": {
+        "value303": 1048593,
+        "value304": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -941,8 +980,8 @@
                 "y": 0.0
             }
         },
-        "value293": 2097166,
-        "value294": {
+        "value305": 2097166,
+        "value306": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -965,8 +1004,8 @@
                 "y": 0.0
             }
         },
-        "value295": 29,
-        "value296": {
+        "value307": 29,
+        "value308": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -989,9 +1028,9 @@
                 "y": 0.0
             }
         },
-        "value297": 1,
-        "value298": 1,
-        "value299": {
+        "value309": 1,
+        "value310": 1,
+        "value311": {
             "cereal_class_version": 0,
             "zoom": 4.0,
             "clear": true,
@@ -1007,9 +1046,9 @@
             "nearPlane": 0.0,
             "farPlane": 100.0
         },
-        "value300": 8,
-        "value301": 1048578,
-        "value302": {
+        "value312": 8,
+        "value313": 1048578,
+        "value314": {
             "cereal_class_version": 0,
             "gravityScale": 0.0,
             "staticBody": false,
@@ -1050,8 +1089,8 @@
             ],
             "circles": []
         },
-        "value303": 3,
-        "value304": {
+        "value315": 3,
+        "value316": {
             "gravityScale": 1.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1167,8 +1206,8 @@
             ],
             "circles": []
         },
-        "value305": 2097156,
-        "value306": {
+        "value317": 2097156,
+        "value318": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1232,8 +1271,8 @@
             ],
             "circles": []
         },
-        "value307": 1048589,
-        "value308": {
+        "value319": 1048589,
+        "value320": {
             "gravityScale": 1.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1247,7 +1286,7 @@
                         "density": 1.0,
                         "angle": 0.0,
                         "offset": {
-                            "x": 0.0,
+                            "x": -7.0,
                             "y": 0.0
                         },
                         "isSensor": true,
@@ -1255,13 +1294,13 @@
                         "restitution": 0.10000000149011612
                     },
                     "size": {
-                        "x": 67.0,
+                        "x": 80.0,
                         "y": 25.0
                     },
                     "density": 1.0,
                     "angle": 0.0,
                     "offset": {
-                        "x": 0.0,
+                        "x": -7.0,
                         "y": 0.0
                     },
                     "isSensor": true,
@@ -1271,8 +1310,8 @@
             ],
             "circles": []
         },
-        "value309": 1048597,
-        "value310": {
+        "value321": 1048597,
+        "value322": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1336,8 +1375,8 @@
             ],
             "circles": []
         },
-        "value311": 1048593,
-        "value312": {
+        "value323": 1048593,
+        "value324": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1401,8 +1440,8 @@
             ],
             "circles": []
         },
-        "value313": 2097166,
-        "value314": {
+        "value325": 2097166,
+        "value326": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1466,8 +1505,8 @@
             ],
             "circles": []
         },
-        "value315": 29,
-        "value316": {
+        "value327": 29,
+        "value328": {
             "gravityScale": 0.0,
             "staticBody": true,
             "fixRotation": false,
@@ -1531,9 +1570,9 @@
             ],
             "circles": []
         },
-        "value317": 6,
-        "value318": 0,
-        "value319": {
+        "value329": 6,
+        "value330": 0,
+        "value331": {
             "cereal_class_version": 0,
             "audioClip": {
                 "cereal_class_version": 0,
@@ -1544,8 +1583,8 @@
             "volume": 0.10000000149011612,
             "pitch": 1.0
         },
-        "value320": 46,
-        "value321": {
+        "value332": 46,
+        "value333": {
             "audioClip": {
                 "path": "audio/game_over.mp3"
             },
@@ -1554,8 +1593,8 @@
             "volume": 0.10000000149011612,
             "pitch": 1.0
         },
-        "value322": 47,
-        "value323": {
+        "value334": 47,
+        "value335": {
             "audioClip": {
                 "path": "audio/follow.wav"
             },
@@ -1564,8 +1603,8 @@
             "volume": 0.20000000298023225,
             "pitch": 1.0
         },
-        "value324": 48,
-        "value325": {
+        "value336": 48,
+        "value337": {
             "audioClip": {
                 "path": "audio/money.wav"
             },
@@ -1574,8 +1613,8 @@
             "volume": 0.20000000298023225,
             "pitch": 1.0
         },
-        "value326": 49,
-        "value327": {
+        "value338": 49,
+        "value339": {
             "audioClip": {
                 "path": "audio/throw.wav"
             },
@@ -1584,8 +1623,8 @@
             "volume": 0.20000000298023225,
             "pitch": 1.0
         },
-        "value328": 50,
-        "value329": {
+        "value340": 50,
+        "value341": {
             "audioClip": {
                 "path": "audio/write.wav"
             },
@@ -1594,9 +1633,9 @@
             "volume": 0.20000000298023225,
             "pitch": 1.0
         },
-        "value330": 1,
-        "value331": 3,
-        "value332": {
+        "value342": 1,
+        "value343": 3,
+        "value344": {
             "cereal_class_version": 0,
             "mapWidth": 32,
             "mapHeight": 32,
@@ -2636,9 +2675,9 @@
                 0
             ]
         },
-        "value333": 25,
-        "value334": 1048578,
-        "value335": {
+        "value345": 26,
+        "value346": 1048578,
+        "value347": {
             "cereal_class_version": 0,
             "scripts": [
                 {
@@ -2690,11 +2729,19 @@
                     "data": {
                         "value0": []
                     }
+                },
+                {
+                    "script": {
+                        "path": "scripts/player_score.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
                 }
             ]
         },
-        "value336": 6,
-        "value337": {
+        "value348": 6,
+        "value349": {
             "scripts": [
                 {
                     "script": {
@@ -2706,8 +2753,8 @@
                 }
             ]
         },
-        "value338": 5,
-        "value339": {
+        "value350": 5,
+        "value351": {
             "scripts": [
                 {
                     "script": {
@@ -2725,8 +2772,8 @@
                 }
             ]
         },
-        "value340": 0,
-        "value341": {
+        "value352": 0,
+        "value353": {
             "scripts": [
                 {
                     "script": {
@@ -2746,8 +2793,8 @@
                 }
             ]
         },
-        "value342": 2097156,
-        "value343": {
+        "value354": 2097156,
+        "value355": {
             "scripts": [
                 {
                     "script": {
@@ -2759,8 +2806,8 @@
                 }
             ]
         },
-        "value344": 2097159,
-        "value345": {
+        "value356": 2097159,
+        "value357": {
             "scripts": [
                 {
                     "script": {
@@ -2786,7 +2833,7 @@
                             {
                                 "value0": "double_chance",
                                 "value1": 3,
-                                "value2": 0.1
+                                "value2": 0.25
                             },
                             {
                                 "value0": "max_waiting_customers",
@@ -2803,146 +2850,36 @@
                 }
             ]
         },
-        "value346": 10,
-        "value347": {
-            "scripts": [
-                {
-                    "script": {
-                        "path": "scripts/ui/ui_popup.lua"
-                    },
-                    "data": {
-                        "value0": [
-                            {
-                                "value0": "sizeY",
-                                "value1": 3,
-                                "value2": 16.0
-                            },
-                            {
-                                "value0": "sizeX",
-                                "value1": 3,
-                                "value2": 16.0
-                            },
-                            {
-                                "value0": "height",
-                                "value1": 3,
-                                "value2": 16.0
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        "value348": 1048587,
-        "value349": {
-            "scripts": [
-                {
-                    "script": {
-                        "path": "scripts/ui/ui_popup.lua"
-                    },
-                    "data": {
-                        "value0": [
-                            {
-                                "value0": "sizeX",
-                                "value1": 3,
-                                "value2": 16.0
-                            },
-                            {
-                                "value0": "sizeY",
-                                "value1": 3,
-                                "value2": 16.0
-                            },
-                            {
-                                "value0": "height",
-                                "value1": 3,
-                                "value2": 17.0
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        "value350": 1,
-        "value351": {
-            "scripts": [
-                {
-                    "script": {
-                        "path": "scripts/camera.lua"
-                    },
-                    "data": {
-                        "value0": []
-                    }
-                }
-            ]
-        },
-        "value352": 2097177,
-        "value353": {
-            "scripts": [
-                {
-                    "script": {
-                        "path": "scripts/ui/ui_progress.lua"
-                    },
-                    "data": {
-                        "value0": []
-                    }
-                }
-            ]
-        },
-        "value354": 16,
-        "value355": {
-            "scripts": [
-                {
-                    "script": {
-                        "path": "scripts/ui/ui_popup.lua"
-                    },
-                    "data": {
-                        "value0": [
-                            {
-                                "value0": "sizeY",
-                                "value1": 3,
-                                "value2": 16.0
-                            },
-                            {
-                                "value0": "sizeX",
-                                "value1": 3,
-                                "value2": 16.0
-                            },
-                            {
-                                "value0": "height",
-                                "value1": 3,
-                                "value2": 16.0
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        "value356": 1048599,
-        "value357": {
-            "scripts": [
-                {
-                    "script": {
-                        "path": "scripts/ui/ui_progress.lua"
-                    },
-                    "data": {
-                        "value0": []
-                    }
-                }
-            ]
-        },
-        "value358": 1048597,
+        "value358": 10,
         "value359": {
             "scripts": [
                 {
                     "script": {
-                        "path": "scripts/table.lua"
+                        "path": "scripts/ui/ui_popup.lua"
                     },
                     "data": {
-                        "value0": []
+                        "value0": [
+                            {
+                                "value0": "sizeY",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "sizeX",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "height",
+                                "value1": 3,
+                                "value2": 16.0
+                            }
+                        ]
                     }
                 }
             ]
         },
-        "value360": 1048598,
+        "value360": 1048587,
         "value361": {
             "scripts": [
                 {
@@ -2971,8 +2908,21 @@
                 }
             ]
         },
-        "value362": 1048595,
+        "value362": 1,
         "value363": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/camera.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value364": 2097177,
+        "value365": {
             "scripts": [
                 {
                     "script": {
@@ -2984,20 +2934,7 @@
                 }
             ]
         },
-        "value364": 1048593,
-        "value365": {
-            "scripts": [
-                {
-                    "script": {
-                        "path": "scripts/table.lua"
-                    },
-                    "data": {
-                        "value0": []
-                    }
-                }
-            ]
-        },
-        "value366": 1048594,
+        "value366": 16,
         "value367": {
             "scripts": [
                 {
@@ -3007,26 +2944,26 @@
                     "data": {
                         "value0": [
                             {
-                                "value0": "sizeX",
+                                "value0": "sizeY",
                                 "value1": 3,
                                 "value2": 16.0
                             },
                             {
-                                "value0": "sizeY",
+                                "value0": "sizeX",
                                 "value1": 3,
                                 "value2": 16.0
                             },
                             {
                                 "value0": "height",
                                 "value1": 3,
-                                "value2": 17.0
+                                "value2": 16.0
                             }
                         ]
                     }
                 }
             ]
         },
-        "value368": 2097164,
+        "value368": 1048599,
         "value369": {
             "scripts": [
                 {
@@ -3039,7 +2976,7 @@
                 }
             ]
         },
-        "value370": 2097166,
+        "value370": 1048597,
         "value371": {
             "scripts": [
                 {
@@ -3052,7 +2989,7 @@
                 }
             ]
         },
-        "value372": 6291465,
+        "value372": 1048598,
         "value373": {
             "scripts": [
                 {
@@ -3081,7 +3018,7 @@
                 }
             ]
         },
-        "value374": 27,
+        "value374": 1048595,
         "value375": {
             "scripts": [
                 {
@@ -3094,7 +3031,7 @@
                 }
             ]
         },
-        "value376": 29,
+        "value376": 1048593,
         "value377": {
             "scripts": [
                 {
@@ -3107,7 +3044,7 @@
                 }
             ]
         },
-        "value378": 30,
+        "value378": 1048594,
         "value379": {
             "scripts": [
                 {
@@ -3136,7 +3073,7 @@
                 }
             ]
         },
-        "value380": 31,
+        "value380": 2097164,
         "value381": {
             "scripts": [
                 {
@@ -3149,8 +3086,118 @@
                 }
             ]
         },
-        "value382": 33,
+        "value382": 2097166,
         "value383": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/table.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value384": 6291465,
+        "value385": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/ui/ui_popup.lua"
+                    },
+                    "data": {
+                        "value0": [
+                            {
+                                "value0": "sizeX",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "sizeY",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "height",
+                                "value1": 3,
+                                "value2": 17.0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "value386": 27,
+        "value387": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/ui/ui_progress.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value388": 29,
+        "value389": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/table.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value390": 30,
+        "value391": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/ui/ui_popup.lua"
+                    },
+                    "data": {
+                        "value0": [
+                            {
+                                "value0": "sizeX",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "sizeY",
+                                "value1": 3,
+                                "value2": 16.0
+                            },
+                            {
+                                "value0": "height",
+                                "value1": 3,
+                                "value2": 17.0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "value392": 31,
+        "value393": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/ui/ui_progress.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value394": 33,
+        "value395": {
             "scripts": [
                 {
                     "script": {
@@ -3162,17 +3209,30 @@
                 }
             ]
         },
-        "value384": 43,
-        "value385": 1,
-        "value386": {
+        "value396": 1048618,
+        "value397": {
+            "scripts": [
+                {
+                    "script": {
+                        "path": "scripts/ui/ui_score.lua"
+                    },
+                    "data": {
+                        "value0": []
+                    }
+                }
+            ]
+        },
+        "value398": 45,
+        "value399": 1,
+        "value400": {
             "cereal_class_version": 1,
             "offset": {
                 "x": 0.0,
                 "y": 0.0
             },
             "dimensions": {
-                "x": 306.0,
-                "y": 187.0
+                "x": 467.75,
+                "y": 239.5
             },
             "parentScale": {
                 "x": 0.0,
@@ -3189,8 +3249,8 @@
             },
             "enabled": true
         },
-        "value387": 6,
-        "value388": {
+        "value401": 6,
+        "value402": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3214,8 +3274,8 @@
             },
             "enabled": true
         },
-        "value389": 8,
-        "value390": {
+        "value403": 8,
+        "value404": {
             "offset": {
                 "x": 4.0,
                 "y": 0.0
@@ -3239,8 +3299,8 @@
             },
             "enabled": true
         },
-        "value391": 1048578,
-        "value392": {
+        "value405": 1048578,
+        "value406": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3264,8 +3324,8 @@
             },
             "enabled": true
         },
-        "value393": 2097159,
-        "value394": {
+        "value407": 2097159,
+        "value408": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3289,8 +3349,8 @@
             },
             "enabled": true
         },
-        "value395": 10,
-        "value396": {
+        "value409": 10,
+        "value410": {
             "offset": {
                 "x": 0.0,
                 "y": 20.0
@@ -3314,215 +3374,40 @@
             },
             "enabled": false
         },
-        "value397": 2097156,
-        "value398": {
-            "offset": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "dimensions": {
-                "x": 32.0,
-                "y": 32.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": true
-        },
-        "value399": 1048587,
-        "value400": {
-            "offset": {
-                "x": 0.0,
-                "y": 17.0
-            },
-            "dimensions": {
-                "x": 16.0,
-                "y": 16.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": false
-        },
-        "value401": 2097177,
-        "value402": {
-            "offset": {
-                "x": 0.0,
-                "y": -12.0
-            },
-            "dimensions": {
-                "x": 16.0,
-                "y": 16.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": false
-        },
-        "value403": 26,
-        "value404": {
-            "offset": {
-                "x": 1.0,
-                "y": 0.0
-            },
-            "dimensions": {
-                "x": -8.0,
-                "y": -12.0
-            },
-            "parentScale": {
-                "x": 1.0,
-                "y": 1.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.0,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.0,
-                "y": 0.5
-            },
-            "enabled": true
-        },
-        "value405": 1048589,
-        "value406": {
-            "offset": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "dimensions": {
-                "x": 32.0,
-                "y": 32.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": true
-        },
-        "value407": 16,
-        "value408": {
-            "offset": {
-                "x": 0.0,
-                "y": 16.0
-            },
-            "dimensions": {
-                "x": 16.0,
-                "y": 16.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": false
-        },
-        "value409": 1048599,
-        "value410": {
-            "offset": {
-                "x": 0.0,
-                "y": -12.0
-            },
-            "dimensions": {
-                "x": 16.0,
-                "y": 16.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": false
-        },
-        "value411": 1048600,
+        "value411": 2097156,
         "value412": {
             "offset": {
-                "x": 1.0,
+                "x": 0.0,
                 "y": 0.0
             },
             "dimensions": {
-                "x": -8.0,
-                "y": -12.0
+                "x": 32.0,
+                "y": 32.0
             },
             "parentScale": {
-                "x": 1.0,
-                "y": 1.0
+                "x": 0.0,
+                "y": 0.0
             },
             "rotation": 0.0,
             "pivot": {
-                "x": 0.0,
+                "x": 0.5,
                 "y": 0.5
             },
             "anchor": {
-                "x": 0.0,
+                "x": 0.5,
                 "y": 0.5
             },
             "enabled": true
         },
-        "value413": 1048597,
+        "value413": 1048587,
         "value414": {
             "offset": {
                 "x": 0.0,
-                "y": 0.0
+                "y": 17.0
             },
             "dimensions": {
-                "x": 32.0,
-                "y": 32.0
+                "x": 16.0,
+                "y": 16.0
             },
             "parentScale": {
                 "x": 0.0,
@@ -3537,37 +3422,12 @@
                 "x": 0.5,
                 "y": 0.5
             },
-            "enabled": true
+            "enabled": false
         },
-        "value415": 1048598,
+        "value415": 2097177,
         "value416": {
             "offset": {
                 "x": 0.0,
-                "y": 17.0
-            },
-            "dimensions": {
-                "x": 16.0,
-                "y": 16.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": false
-        },
-        "value417": 1048595,
-        "value418": {
-            "offset": {
-                "x": 0.0,
                 "y": -12.0
             },
             "dimensions": {
@@ -3589,8 +3449,8 @@
             },
             "enabled": false
         },
-        "value419": 1048596,
-        "value420": {
+        "value417": 26,
+        "value418": {
             "offset": {
                 "x": 1.0,
                 "y": 0.0
@@ -3614,15 +3474,40 @@
             },
             "enabled": true
         },
-        "value421": 1048593,
+        "value419": 1048589,
+        "value420": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value421": 16,
         "value422": {
             "offset": {
                 "x": 0.0,
-                "y": 0.0
+                "y": 16.0
             },
             "dimensions": {
-                "x": 32.0,
-                "y": 32.0
+                "x": 16.0,
+                "y": 16.0
             },
             "parentScale": {
                 "x": 0.0,
@@ -3637,37 +3522,12 @@
                 "x": 0.5,
                 "y": 0.5
             },
-            "enabled": true
+            "enabled": false
         },
-        "value423": 1048594,
+        "value423": 1048599,
         "value424": {
             "offset": {
                 "x": 0.0,
-                "y": 17.0
-            },
-            "dimensions": {
-                "x": 16.0,
-                "y": 16.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": false
-        },
-        "value425": 2097164,
-        "value426": {
-            "offset": {
-                "x": 0.0,
                 "y": -12.0
             },
             "dimensions": {
@@ -3689,8 +3549,8 @@
             },
             "enabled": false
         },
-        "value427": 1048591,
-        "value428": {
+        "value425": 1048600,
+        "value426": {
             "offset": {
                 "x": 1.0,
                 "y": 0.0
@@ -3714,15 +3574,40 @@
             },
             "enabled": true
         },
-        "value429": 2097166,
+        "value427": 1048597,
+        "value428": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value429": 1048598,
         "value430": {
             "offset": {
                 "x": 0.0,
-                "y": 0.0
+                "y": 17.0
             },
             "dimensions": {
-                "x": 32.0,
-                "y": 32.0
+                "x": 16.0,
+                "y": 16.0
             },
             "parentScale": {
                 "x": 0.0,
@@ -3737,37 +3622,12 @@
                 "x": 0.5,
                 "y": 0.5
             },
-            "enabled": true
+            "enabled": false
         },
-        "value431": 6291465,
+        "value431": 1048595,
         "value432": {
             "offset": {
                 "x": 0.0,
-                "y": 17.0
-            },
-            "dimensions": {
-                "x": 16.0,
-                "y": 16.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": false
-        },
-        "value433": 27,
-        "value434": {
-            "offset": {
-                "x": 0.0,
                 "y": -12.0
             },
             "dimensions": {
@@ -3789,8 +3649,8 @@
             },
             "enabled": false
         },
-        "value435": 28,
-        "value436": {
+        "value433": 1048596,
+        "value434": {
             "offset": {
                 "x": 1.0,
                 "y": 0.0
@@ -3814,8 +3674,8 @@
             },
             "enabled": true
         },
-        "value437": 29,
-        "value438": {
+        "value435": 1048593,
+        "value436": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3839,8 +3699,8 @@
             },
             "enabled": true
         },
-        "value439": 30,
-        "value440": {
+        "value437": 1048594,
+        "value438": {
             "offset": {
                 "x": 0.0,
                 "y": 17.0
@@ -3864,8 +3724,8 @@
             },
             "enabled": false
         },
-        "value441": 31,
-        "value442": {
+        "value439": 2097164,
+        "value440": {
             "offset": {
                 "x": 0.0,
                 "y": -12.0
@@ -3889,8 +3749,8 @@
             },
             "enabled": false
         },
-        "value443": 32,
-        "value444": {
+        "value441": 1048591,
+        "value442": {
             "offset": {
                 "x": 1.0,
                 "y": 0.0
@@ -3914,8 +3774,208 @@
             },
             "enabled": true
         },
-        "value445": 34,
+        "value443": 2097166,
+        "value444": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value445": 6291465,
         "value446": {
+            "offset": {
+                "x": 0.0,
+                "y": 17.0
+            },
+            "dimensions": {
+                "x": 16.0,
+                "y": 16.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": false
+        },
+        "value447": 27,
+        "value448": {
+            "offset": {
+                "x": 0.0,
+                "y": -12.0
+            },
+            "dimensions": {
+                "x": 16.0,
+                "y": 16.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": false
+        },
+        "value449": 28,
+        "value450": {
+            "offset": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": -8.0,
+                "y": -12.0
+            },
+            "parentScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value451": 29,
+        "value452": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value453": 30,
+        "value454": {
+            "offset": {
+                "x": 0.0,
+                "y": 17.0
+            },
+            "dimensions": {
+                "x": 16.0,
+                "y": 16.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": false
+        },
+        "value455": 31,
+        "value456": {
+            "offset": {
+                "x": 0.0,
+                "y": -12.0
+            },
+            "dimensions": {
+                "x": 16.0,
+                "y": 16.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": false
+        },
+        "value457": 32,
+        "value458": {
+            "offset": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": -8.0,
+                "y": -12.0
+            },
+            "parentScale": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value459": 34,
+        "value460": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3939,8 +3999,8 @@
             },
             "enabled": true
         },
-        "value447": 33,
-        "value448": {
+        "value461": 33,
+        "value462": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -3964,8 +4024,8 @@
             },
             "enabled": false
         },
-        "value449": 35,
-        "value450": {
+        "value463": 35,
+        "value464": {
             "offset": {
                 "x": -2.0,
                 "y": 2.0
@@ -3989,8 +4049,8 @@
             },
             "enabled": true
         },
-        "value451": 36,
-        "value452": {
+        "value465": 36,
+        "value466": {
             "offset": {
                 "x": 2.0,
                 "y": 0.0
@@ -4014,8 +4074,8 @@
             },
             "enabled": true
         },
-        "value453": 37,
-        "value454": {
+        "value467": 37,
+        "value468": {
             "offset": {
                 "x": 0.0,
                 "y": 0.0
@@ -4039,8 +4099,8 @@
             },
             "enabled": true
         },
-        "value455": 38,
-        "value456": {
+        "value469": 38,
+        "value470": {
             "offset": {
                 "x": -2.0,
                 "y": 2.0
@@ -4064,8 +4124,8 @@
             },
             "enabled": true
         },
-        "value457": 39,
-        "value458": {
+        "value471": 39,
+        "value472": {
             "offset": {
                 "x": 0.0,
                 "y": -16.0
@@ -4089,8 +4149,8 @@
             },
             "enabled": true
         },
-        "value459": 40,
-        "value460": {
+        "value473": 40,
+        "value474": {
             "offset": {
                 "x": -2.0,
                 "y": 2.0
@@ -4114,83 +4174,8 @@
             },
             "enabled": true
         },
-        "value461": 41,
-        "value462": {
-            "offset": {
-                "x": 0.0,
-                "y": -42.0
-            },
-            "dimensions": {
-                "x": 63.0,
-                "y": 20.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": true
-        },
-        "value463": 42,
-        "value464": {
-            "offset": {
-                "x": -1.0,
-                "y": 1.0
-            },
-            "dimensions": {
-                "x": 32.0,
-                "y": 32.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": true
-        },
-        "value465": 43,
-        "value466": {
-            "offset": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "dimensions": {
-                "x": 32.0,
-                "y": 32.0
-            },
-            "parentScale": {
-                "x": 0.0,
-                "y": 0.0
-            },
-            "rotation": 0.0,
-            "pivot": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            },
-            "enabled": true
-        },
-        "value467": 44,
-        "value468": {
+        "value475": 44,
+        "value476": {
             "offset": {
                 "x": 0.0,
                 "y": 22.0
@@ -4214,8 +4199,8 @@
             },
             "enabled": true
         },
-        "value469": 45,
-        "value470": {
+        "value477": 45,
+        "value478": {
             "offset": {
                 "x": -1.0,
                 "y": 1.0
@@ -4239,47 +4224,176 @@
             },
             "enabled": true
         },
-        "value471": 9,
-        "value472": 1,
-        "value473": {
+        "value479": 1048617,
+        "value480": {
+            "offset": {
+                "x": 0.0,
+                "y": -45.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value481": 1048619,
+        "value482": {
+            "offset": {
+                "x": -2.0,
+                "y": 2.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value483": 1048618,
+        "value484": {
+            "offset": {
+                "x": 230.0,
+                "y": 42.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value485": 1048627,
+        "value486": {
+            "offset": {
+                "x": -1.0,
+                "y": 1.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value487": 52,
+        "value488": {
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "dimensions": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "parentScale": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "rotation": 0.0,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "enabled": true
+        },
+        "value489": 10,
+        "value490": 1,
+        "value491": {
             "cereal_class_version": 0,
             "scale": 4.0
         },
-        "value474": 1048578,
-        "value475": {
+        "value492": 1048578,
+        "value493": {
             "scale": 1.0
         },
-        "value476": 2097159,
-        "value477": {
+        "value494": 2097159,
+        "value495": {
             "scale": 1.0
         },
-        "value478": 2097156,
-        "value479": {
+        "value496": 2097156,
+        "value497": {
             "scale": 1.0
         },
-        "value480": 1048589,
-        "value481": {
+        "value498": 1048589,
+        "value499": {
             "scale": 1.0
         },
-        "value482": 1048597,
-        "value483": {
+        "value500": 1048597,
+        "value501": {
             "scale": 1.0
         },
-        "value484": 1048593,
-        "value485": {
+        "value502": 1048593,
+        "value503": {
             "scale": 1.0
         },
-        "value486": 2097166,
-        "value487": {
+        "value504": 2097166,
+        "value505": {
             "scale": 1.0
         },
-        "value488": 29,
-        "value489": {
+        "value506": 29,
+        "value507": {
             "scale": 1.0
         },
-        "value490": 1,
-        "value491": 6,
-        "value492": {
+        "value508": 52,
+        "value509": {
+            "scale": 1.0
+        },
+        "value510": 1,
+        "value511": 6,
+        "value512": {
             "cereal_class_version": 0,
             "color": {
                 "r": 0.0,
@@ -4288,9 +4402,9 @@
                 "a": 0.0
             }
         },
-        "value493": 11,
-        "value494": 8,
-        "value495": {
+        "value513": 13,
+        "value514": 8,
+        "value515": {
             "cereal_class_version": 0,
             "text": "Created by Thom Zeilstra in 48 hours for Ludum Dare 55",
             "vertical": 0,
@@ -4308,8 +4422,8 @@
             },
             "wrapText": true
         },
-        "value496": 35,
-        "value497": {
+        "value516": 35,
+        "value517": {
             "text": "Game Over",
             "vertical": 1,
             "horizontal": 1,
@@ -4325,8 +4439,8 @@
             },
             "wrapText": false
         },
-        "value498": 36,
-        "value499": {
+        "value518": 36,
+        "value519": {
             "text": "Game Over",
             "vertical": 1,
             "horizontal": 1,
@@ -4342,8 +4456,8 @@
             },
             "wrapText": false
         },
-        "value500": 37,
-        "value501": {
+        "value520": 37,
+        "value521": {
             "text": "Score: 1337",
             "vertical": 1,
             "horizontal": 1,
@@ -4359,8 +4473,8 @@
             },
             "wrapText": false
         },
-        "value502": 38,
-        "value503": {
+        "value522": 38,
+        "value523": {
             "text": "Score: 1337",
             "vertical": 1,
             "horizontal": 1,
@@ -4376,8 +4490,8 @@
             },
             "wrapText": false
         },
-        "value504": 39,
-        "value505": {
+        "value524": 39,
+        "value525": {
             "text": "Highscore: 69420",
             "vertical": 1,
             "horizontal": 1,
@@ -4393,8 +4507,8 @@
             },
             "wrapText": false
         },
-        "value506": 40,
-        "value507": {
+        "value526": 40,
+        "value527": {
             "text": "Highscore: 69420",
             "vertical": 1,
             "horizontal": 1,
@@ -4410,9 +4524,60 @@
             },
             "wrapText": false
         },
-        "value508": 42,
-        "value509": {
-            "text": "Retry",
+        "value528": 45,
+        "value529": {
+            "text": "A customer starved to death",
+            "vertical": 1,
+            "horizontal": 1,
+            "color": {
+                "r": 0.7510548830032349,
+                "g": 0.19964748620986939,
+                "b": 0.19964748620986939,
+                "a": 1.0
+            },
+            "fontSize": 8.0,
+            "font": {
+                "path": "fonts/aldo_the_apache.ttf"
+            },
+            "wrapText": false
+        },
+        "value530": 44,
+        "value531": {
+            "text": "A customer starved to death",
+            "vertical": 1,
+            "horizontal": 1,
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "fontSize": 8.0,
+            "font": {
+                "path": "fonts/aldo_the_apache.ttf"
+            },
+            "wrapText": false
+        },
+        "value532": 1048617,
+        "value533": {
+            "text": "Press space to continue",
+            "vertical": 1,
+            "horizontal": 1,
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "fontSize": 10.0,
+            "font": {
+                "path": "fonts/aldo_the_apache.ttf"
+            },
+            "wrapText": false
+        },
+        "value534": 1048619,
+        "value535": {
+            "text": "Press space to continue",
             "vertical": 1,
             "horizontal": 1,
             "color": {
@@ -4427,9 +4592,9 @@
             },
             "wrapText": false
         },
-        "value510": 43,
-        "value511": {
-            "text": "Retry",
+        "value536": 1048618,
+        "value537": {
+            "text": "0",
             "vertical": 1,
             "horizontal": 1,
             "color": {
@@ -4438,49 +4603,32 @@
                 "b": 0.0,
                 "a": 1.0
             },
-            "fontSize": 10.0,
+            "fontSize": 12.0,
             "font": {
                 "path": "fonts/aldo_the_apache.ttf"
             },
             "wrapText": false
         },
-        "value512": 44,
-        "value513": {
-            "text": "A customer starved to death",
+        "value538": 1048627,
+        "value539": {
+            "text": "0",
             "vertical": 1,
             "horizontal": 1,
             "color": {
-                "r": 0.0,
-                "g": 0.0,
-                "b": 0.0,
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
                 "a": 1.0
             },
-            "fontSize": 8.0,
+            "fontSize": 12.0,
             "font": {
                 "path": "fonts/aldo_the_apache.ttf"
             },
             "wrapText": false
         },
-        "value514": 45,
-        "value515": {
-            "text": "A customer starved to death",
-            "vertical": 1,
-            "horizontal": 1,
-            "color": {
-                "r": 0.6751054525375366,
-                "g": 0.6751054525375366,
-                "b": 0.6751054525375366,
-                "a": 1.0
-            },
-            "fontSize": 8.0,
-            "font": {
-                "path": "fonts/aldo_the_apache.ttf"
-            },
-            "wrapText": false
-        },
-        "value516": 20,
-        "value517": 10,
-        "value518": {
+        "value540": 20,
+        "value541": 10,
+        "value542": {
             "cereal_class_version": 0,
             "image": {
                 "path": "sprites/ui_attention.png"
@@ -4492,165 +4640,9 @@
                 "a": 1.0
             }
         },
-        "value519": 1048587,
-        "value520": {
-            "image": {
-                "path": "sprites/ui_attention.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value521": 26,
-        "value522": {
-            "image": {
-                "path": "sprites/ui_progress_bar.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value523": 2097177,
-        "value524": {
-            "image": {
-                "path": "sprites/ui_progress.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value525": 16,
-        "value526": {
-            "image": {
-                "path": "sprites/ui_food.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value527": 1048578,
-        "value528": {
-            "image": {
-                "path": "sprites/ui_controls.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 0.0
-            }
-        },
-        "value529": 1048599,
-        "value530": {
-            "image": {
-                "path": "sprites/ui_progress.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value531": 1048600,
-        "value532": {
-            "image": {
-                "path": "sprites/ui_progress_bar.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value533": 1048598,
-        "value534": {
-            "image": {
-                "path": "sprites/ui_attention.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value535": 1048595,
-        "value536": {
-            "image": {
-                "path": "sprites/ui_progress.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value537": 1048596,
-        "value538": {
-            "image": {
-                "path": "sprites/ui_progress_bar.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value539": 1048594,
-        "value540": {
-            "image": {
-                "path": "sprites/ui_attention.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value541": 2097164,
-        "value542": {
-            "image": {
-                "path": "sprites/ui_progress.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value543": 1048591,
+        "value543": 1048587,
         "value544": {
             "image": {
-                "path": "sprites/ui_progress_bar.png"
-            },
-            "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-            }
-        },
-        "value545": 6291465,
-        "value546": {
-            "image": {
                 "path": "sprites/ui_attention.png"
             },
             "color": {
@@ -4660,7 +4652,19 @@
                 "a": 1.0
             }
         },
-        "value547": 27,
+        "value545": 26,
+        "value546": {
+            "image": {
+                "path": "sprites/ui_progress_bar.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value547": 2097177,
         "value548": {
             "image": {
                 "path": "sprites/ui_progress.png"
@@ -4672,10 +4676,10 @@
                 "a": 1.0
             }
         },
-        "value549": 28,
+        "value549": 16,
         "value550": {
             "image": {
-                "path": "sprites/ui_progress_bar.png"
+                "path": "sprites/ui_food.png"
             },
             "color": {
                 "r": 1.0,
@@ -4684,19 +4688,19 @@
                 "a": 1.0
             }
         },
-        "value551": 30,
+        "value551": 1048578,
         "value552": {
             "image": {
-                "path": "sprites/ui_attention.png"
+                "path": "sprites/ui_controls.png"
             },
             "color": {
                 "r": 1.0,
                 "g": 1.0,
                 "b": 1.0,
-                "a": 1.0
+                "a": 0.0
             }
         },
-        "value553": 31,
+        "value553": 1048599,
         "value554": {
             "image": {
                 "path": "sprites/ui_progress.png"
@@ -4708,7 +4712,7 @@
                 "a": 1.0
             }
         },
-        "value555": 32,
+        "value555": 1048600,
         "value556": {
             "image": {
                 "path": "sprites/ui_progress_bar.png"
@@ -4720,9 +4724,153 @@
                 "a": 1.0
             }
         },
-        "value557": 2,
-        "value558": 34,
-        "value559": {
+        "value557": 1048598,
+        "value558": {
+            "image": {
+                "path": "sprites/ui_attention.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value559": 1048595,
+        "value560": {
+            "image": {
+                "path": "sprites/ui_progress.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value561": 1048596,
+        "value562": {
+            "image": {
+                "path": "sprites/ui_progress_bar.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value563": 1048594,
+        "value564": {
+            "image": {
+                "path": "sprites/ui_attention.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value565": 2097164,
+        "value566": {
+            "image": {
+                "path": "sprites/ui_progress.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value567": 1048591,
+        "value568": {
+            "image": {
+                "path": "sprites/ui_progress_bar.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value569": 6291465,
+        "value570": {
+            "image": {
+                "path": "sprites/ui_attention.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value571": 27,
+        "value572": {
+            "image": {
+                "path": "sprites/ui_progress.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value573": 28,
+        "value574": {
+            "image": {
+                "path": "sprites/ui_progress_bar.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value575": 30,
+        "value576": {
+            "image": {
+                "path": "sprites/ui_attention.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value577": 31,
+        "value578": {
+            "image": {
+                "path": "sprites/ui_progress.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value579": 32,
+        "value580": {
+            "image": {
+                "path": "sprites/ui_progress_bar.png"
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        "value581": 1,
+        "value582": 34,
+        "value583": {
             "cereal_class_version": 0,
             "border": 4.0,
             "image": {
@@ -4733,19 +4881,6 @@
                 "g": 0.10927734524011612,
                 "b": 0.13080167770385743,
                 "a": 0.7843137383460999
-            }
-        },
-        "value560": 41,
-        "value561": {
-            "border": 4.0,
-            "image": {
-                "path": "sprites/ui_window.png"
-            },
-            "color": {
-                "r": 0.3593171536922455,
-                "g": 0.746835470199585,
-                "b": 0.28991082310676577,
-                "a": 1.0
             }
         }
     }

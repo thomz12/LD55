@@ -1,6 +1,20 @@
 local over = false
 local score = 0.0
 
+-- function start()
+--     playfab_login("thom", function(result, ticket, new_account)
+--         if result then
+--             info("Signed in!")
+--             info(ticket)
+--             if new_account then
+--                 info("New account created!")
+--             end
+--         else
+--             info("Something went wrong!")
+--         end
+--     end)
+-- end
+
 function is_game_over()
     return over
 end
