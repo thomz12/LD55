@@ -25,7 +25,7 @@ local manager
 
 function start()
     manager = find_entity("root"):get_scripts():get_script_env("game_manager.lua")
-    entity:get_sprite().origin = vector2.new(0, 16 * math.random(1, 3))
+    entity:get_sprite().origin = vector2.new(0, 16 * math.random(1, 8))
     interact_func = wait_interact
     entry_pos = vector2.new(90, 90)
 end
@@ -178,7 +178,14 @@ function wait_food(player)
         interact_func = nil
         bounce()
         routine.create(function()
-            routine.wait_seconds(5.0)
+            routine.wait_seconds_func(5.0, function(x)
+                if math.floor(x * 50) % 2 == 0 then
+                    entity:get_sprite().origin.x = 0.0
+                else
+                    entity:get_sprite().origin.x = 64.0
+                end
+            end)
+            entity:get_sprite().origin.x = 0.0
             set_wait(true)
             destroy_entity(food_entity)
             find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_payment.png")
