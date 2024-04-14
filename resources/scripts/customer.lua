@@ -179,7 +179,7 @@ function wait_interact(player)
     local player_customer_env = player:get_scripts():get_script_env("player_customer.lua")
     if player_customer_env.following == nil then
         player_customer_env.following = entity
-        find_entity("img_entry_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
+        find_entity("customer_spawner"):get_scripts():get_script_env("customer_spawner.lua").take_customer()
         interact_func = nil
         bounce()
     end
