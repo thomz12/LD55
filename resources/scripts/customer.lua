@@ -3,6 +3,10 @@ local frame_timer = 0.0
 target_pos = nil
 target_dist = nil
 
+local waiting = false
+local patience = 0.0
+local max_patience = 15.0
+
 local interact_func = nil
 local table = nil
 local entry_pos = nil
@@ -51,6 +55,13 @@ function move_towards(position, duration, on_arrive)
 end
 
 function update(delta_time)
+    if waiting then
+        patience = patience + delta_time
+        if table ~= nil then
+            local progress_bar_env = find_child_by_name(table, "img_progress_back"):get_scripts():get_script_env("ui_progress.lua")
+            progress_bar_env.set_percentage(patience/max_patience)
+        end
+    end
     delta = delta_time
     local sprite = entity:get_sprite()
     local transform = entity:get_transform()
@@ -84,12 +95,24 @@ function update(delta_time)
     end
 end
 
+function set_wait(new_wait)
+    if waiting ~= new_wait then
+        waiting = new_wait
+        local progress_bar_env = find_child_by_name(table, "img_progress_back"):get_scripts():get_script_env("ui_progress.lua")
+        if waiting then
+            progress_bar_env.show()
+        else
+            progress_bar_env.hide()
+        end
+    end 
+end
+
 function wait_payment(player)
     table:get_scripts():get_script_env("table.lua").customer = nil
     find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
     interact_func = nil
     entity:get_transform().scale.x = -1
-
+    set_wait(false)
     -- find_entity("camera"):get_scripts():get_script_env("camera.lua").zoom_in(
     --     vector2.new(entity:get_transform().position.x, entity:get_transform().position.y), 1.0, 0.5)
 
@@ -123,11 +146,12 @@ function wait_food(player)
                 food_trans.rotation = lerp(0, 360, out_back(x))
             end)
         end)
-
+        set_wait(false)
         interact_func = nil
         bounce()
         routine.create(function()
             routine.wait_seconds(5.0)
+            set_wait(true)
             destroy_entity(food_entity)
             find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_payment.png")
             interact_func = wait_payment
@@ -140,6 +164,7 @@ function seat_customer(my_table)
     routine.create(function()
         routine.wait_seconds(2.0)
         bounce()
+        set_wait(true)
         find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_order.png")
         interact_func = function(player)
             interact_func = wait_food
