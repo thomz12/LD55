@@ -18,6 +18,9 @@ end
 
 function on_contact(this, other)
     if other.name == "kitchen" then
+        if orders > 0 then 
+            find_entity("sound_write"):get_audio():play()
+        end
         carrying = carrying + orders
         find_entity("img_attention_food"):get_scripts():get_script_env("ui_popup.lua").hide()
         for i=1, orders do

@@ -138,6 +138,7 @@ function wait_payment(player)
     table:get_scripts():get_script_env("table.lua").customer = nil
     find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").hide()
     interact_func = nil
+    find_entity("sound_money"):get_audio():play()
     entity:get_transform().scale.x = -1
     set_wait(false)
     routine.create(function()
@@ -161,6 +162,7 @@ function wait_food(player)
         local food_entity = player:get_scripts():get_script_env("player_carry.lua").pop_food()
         local food_startX = food_entity:get_transform().position.x
         local food_startY = food_entity:get_transform().position.y
+        find_entity("sound_throw"):get_audio():play()
         routine.create(function()
             routine.wait_seconds_func(1.0, function(x)
                 local food_trans = food_entity:get_transform()
@@ -185,12 +187,14 @@ end
 
 function seat_customer(my_table)
     table = my_table
+    find_entity("sound_follow"):get_audio():play()
     routine.create(function()
         routine.wait_seconds(2.0)
         bounce()
         set_wait(true)
         find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_order.png")
         interact_func = function(player)
+            find_entity("sound_write"):get_audio():play()
             interact_func = wait_food
             player:get_scripts():get_script_env("player_food.lua").add_order()
             find_child_by_name(table, "img_table_attention"):get_scripts():get_script_env("ui_popup.lua").show("sprites/ui_food.png")
@@ -203,6 +207,7 @@ function wait_interact(player)
     local player_customer_env = player:get_scripts():get_script_env("player_customer.lua")
     if player_customer_env.following == nil then
         player_customer_env.following = entity
+        find_entity("sound_follow"):get_audio():play()
         find_entity("customer_spawner"):get_scripts():get_script_env("customer_spawner.lua").take_customer()
         interact_func = nil
         bounce()
