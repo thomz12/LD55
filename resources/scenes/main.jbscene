@@ -768,7 +768,7 @@
         "value280": 2097166,
         "value281": {
             "position": {
-                "x": 278.0,
+                "x": 295.0,
                 "y": 129.0,
                 "z": -2.0
             },
@@ -781,8 +781,8 @@
         "value282": 29,
         "value283": {
             "position": {
-                "x": 278.0,
-                "y": 56.0,
+                "x": 273.0,
+                "y": 75.0,
                 "z": -2.0
             },
             "rotation": 0.0,
@@ -924,8 +924,8 @@
                 "path": "sprites/table.png"
             },
             "dimensions": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 16.0,
+                "y": 16.0
             },
             "origin": {
                 "x": 0.0,
@@ -948,11 +948,11 @@
                 "path": "sprites/table.png"
             },
             "dimensions": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 16.0,
+                "y": 16.0
             },
             "origin": {
-                "x": 0.0,
+                "x": 16.0,
                 "y": 0.0
             }
         },
@@ -972,8 +972,8 @@
                 "path": "sprites/table.png"
             },
             "dimensions": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 16.0,
+                "y": 16.0
             },
             "origin": {
                 "x": 0.0,
@@ -996,11 +996,11 @@
                 "path": "sprites/table.png"
             },
             "dimensions": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 16.0,
+                "y": 16.0
             },
             "origin": {
-                "x": 0.0,
+                "x": 16.0,
                 "y": 0.0
             }
         },
@@ -1020,8 +1020,8 @@
                 "path": "sprites/table.png"
             },
             "dimensions": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 16.0,
+                "y": 16.0
             },
             "origin": {
                 "x": 0.0,
@@ -1032,7 +1032,7 @@
         "value310": 1,
         "value311": {
             "cereal_class_version": 0,
-            "zoom": 4.0,
+            "zoom": 3.0,
             "clear": true,
             "clearColor": {
                 "r": 0.0,
@@ -3231,8 +3231,8 @@
                 "y": 0.0
             },
             "dimensions": {
-                "x": 467.75,
-                "y": 239.5
+                "x": 316.0,
+                "y": 177.3333282470703
             },
             "parentScale": {
                 "x": 0.0,
@@ -4353,7 +4353,7 @@
         "value490": 1,
         "value491": {
             "cereal_class_version": 0,
-            "scale": 4.0
+            "scale": 3.0
         },
         "value492": 1048578,
         "value493": {
